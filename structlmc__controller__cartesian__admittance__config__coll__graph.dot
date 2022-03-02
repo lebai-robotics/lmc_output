@@ -1,0 +1,15 @@
+digraph "lmc_controller_cartesian_admittance_config"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="lmc_controller_cartesian\l_admittance_config",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node2 -> Node1 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" task_frame" ,fontname="Helvetica"];
+  Node2 [label="lmc_transform",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$structlmc__transform.html",tooltip="Transform representation. "];
+  Node3 -> Node2 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" pose" ,fontname="Helvetica"];
+  Node3 [label="lmc_translation",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$structlmc__translation.html",tooltip="Cartesian translation coordinate. "];
+  Node4 -> Node2 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" rotation" ,fontname="Helvetica"];
+  Node4 [label="lmc_euler",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$structlmc__euler.html",tooltip="Euler zyx representation of rotation. "];
+  Node5 -> Node1 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" wrench" ,fontname="Helvetica"];
+  Node5 [label="lmc_wrench",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$structlmc__wrench.html",tooltip="Transform force representation. "];
+  Node3 -> Node5 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" force\ntorque" ,fontname="Helvetica"];
+}

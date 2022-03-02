@@ -1,0 +1,18 @@
+<map id="lmc_robot_model_config.h" name="lmc_robot_model_config.h">
+<area shape="rect" id="node2" href="$lmc__robot__model_8h.html" title="Robot model related data structures and functions. " alt="" coords="360,80,505,107"/>
+<area shape="rect" id="node3" href="$lmc__robot__model_8cc_source.html" title="lmc_robot_model.cc" alt="" coords="5,155,156,181"/>
+<area shape="rect" id="node4" href="$lmc__tg_8cc_source.html" title="lmc_tg.cc" alt="" coords="571,304,654,331"/>
+<area shape="rect" id="node5" href="$lmc__controller_8h.html" title="Controller related functions. " alt="" coords="239,155,362,181"/>
+<area shape="rect" id="node7" href="$lmc__dyn_8h.html" title="Dynamic related functions. " alt="" coords="389,155,476,181"/>
+<area shape="rect" id="node9" href="$lmc__kin_8h.html" title="Kinematic related functions. " alt="" coords="503,155,586,181"/>
+<area shape="rect" id="node11" href="$lmc__tg_8h.html" title="Trajectory generator related data structures and functions. " alt="" coords="647,155,725,181"/>
+<area shape="rect" id="node15" href="$create__robot__model_8hh.html" title="create robot model function. " alt="" coords="863,155,1034,181"/>
+<area shape="rect" id="node6" href="$lmc__controller_8cc_source.html" title="lmc_controller.cc" alt="" coords="232,229,361,256"/>
+<area shape="rect" id="node8" href="$lmc__dyn_8cc_source.html" title="lmc_dyn.cc" alt="" coords="386,229,479,256"/>
+<area shape="rect" id="node10" href="$lmc__kin_8cc_source.html" title="lmc_kin.cc" alt="" coords="503,229,591,256"/>
+<area shape="rect" id="node12" href="$lmc__tg__utils_8h_source.html" title="lmc_tg_utils.h" alt="" coords="667,229,777,256"/>
+<area shape="rect" id="node14" href="$example__tg_8cc.html" title="example_tg.cc" alt="" coords="802,229,917,256"/>
+<area shape="rect" id="node13" href="$lmc__tg__utils_8cc_source.html" title="lmc_tg_utils.cc" alt="" coords="679,304,795,331"/>
+<area shape="rect" id="node16" href="$create__robot__model_8cc.html" title="create_robot_model.cc" alt="" coords="941,229,1111,256"/>
+<area shape="rect" id="node17" href="$example__robot__model_8cc.html" title="example_robot_model.cc" alt="" coords="1135,229,1317,256"/>
+</map>

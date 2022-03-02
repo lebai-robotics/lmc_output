@@ -1,0 +1,6 @@
+<map id="lmc_robot_model_config" name="lmc_robot_model_config">
+<area shape="rect" id="node2" href="$structlmc__link__config.html" title="Overall parameter for a single link,. " alt="" coords="145,184,264,211"/>
+<area shape="rect" id="node3" href="$structlmc__link__dyn__config.html" title="Dynamic parameter for a link. " alt="" coords="5,95,153,121"/>
+<area shape="rect" id="node4" href="$structlmc__translation.html" title="Cartesian translation coordinate. " alt="" coords="19,5,139,32"/>
+<area shape="rect" id="node5" href="$structlmc__link__dh__config.html" title="DH parameter for a link. " alt="" coords="177,95,318,121"/>
+</map>
