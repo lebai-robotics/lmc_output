@@ -6,7 +6,7 @@ digraph "lmc_robot_model_config.h"
   Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
   Node2 [label="stddef.h",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled"];
   Node1 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
-  Node3 [label="motion_control/config.h",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$config_8h.html",tooltip="Global configuration macro. "];
+  Node3 [label="motion_control/lmc\l_config.h",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$lmc__config_8h.html",tooltip="Global configuration macro. "];
   Node1 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
   Node4 [label="motion_control/lmc\l_math.h",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$lmc__math_8h.html",tooltip="Basic math data structure definitions and functions. "];
 }

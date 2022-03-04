@@ -25,7 +25,7 @@
   <td id="projectlogo"><img alt="Logo" src="logo.png"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">lebai-motion-control
-   &#160;<span id="projectnumber">2.2.5</span>
+   &#160;<span id="projectnumber">2.2.6</span>
    </div>
    <div id="projectbrief">lebai motion control C interface</div>
   </td>
@@ -88,16 +88,18 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <ol type="1">
 <li>install required packages by package system.</li>
 </ol>
-<div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;### debian/ubuntu</div><div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;sudo apt install -y g++ gcc git cmake doxygen libeigen3-dev libboost-all-dev libtinyxml-dev</div><div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;### macOS</div><div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;brew install eigen orocos-kdl boost googletest doxygen</div></div><!-- fragment --><ol type="1">
+<div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;### debian/ubuntu</div><div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;sudo apt install -y g++ gcc git doxygen libeigen3-dev libboost-all-dev libtinyxml-dev</div></div><!-- fragment --><ol type="1">
 <li>install some compiled dependency. There is a script to help you install these software.</li>
 </ol>
-<div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;# in lebai-motion-control</div><div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;cd script</div><div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;./install_prereqs.sh path_to_rc_install</div><div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;#path_to_rc_install is a path to install rc lib and include.</div></div><!-- fragment --><p>This script will try to download, compile and install some dependency to a pre-assigned location.</p>
+<div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;# in lebai-motion-control</div><div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;cd script</div><div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;./install_prereqs.sh path_to_lmc_install</div><div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;#path_to_lmc_install is a path to install lmc lib and include.</div></div><!-- fragment --><p>This script will try to download, compile and install some dependency to a pre-assigned location.</p>
 <h2>Compile and install</h2>
-<div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;mkdir build</div><div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;cd build</div><div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;cmake .. -DCMAKE_INSTALL_PREFIX=path_to_rc_install</div><div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;make &amp;&amp; make install</div></div><!-- fragment --><h2>Unit test</h2>
+<div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;mkdir build</div><div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;cd build</div><div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;cmake .. -DCMAKE_INSTALL_PREFIX=path_to_lmc_install</div><div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;make &amp;&amp; make install</div></div><!-- fragment --><h2>Unit test</h2>
 <p>In build binary directory run <code>ctest</code></p>
 <div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;cd build</div><div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;make</div><div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;ctest</div></div><!-- fragment --><h2>Document</h2>
 <p>In build biary directory, html directory is for the html document.</p>
-<div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;cd build</div><div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;make doc</div><div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;### doc will also be generated using just make</div></div><!-- fragment --><h2>Future plan</h2>
+<div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;cd build</div><div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;make doc</div><div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;### doc will also be generated using just make</div></div><!-- fragment --><p>We now have an online document hosted by github page.</p>
+<p><a href="https://lebai-robotics.github.io/lmc_output/">https://lebai-robotics.github.io/lmc_output/</a></p>
+<h2>Future plan</h2>
 <p>TODO </p>
 </div></div><!-- contents -->
 <!-- start footer part -->

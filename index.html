@@ -25,7 +25,7 @@
   <td id="projectlogo"><img alt="Logo" src="logo.png"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">lebai-motion-control
-   &#160;<span id="projectnumber">2.2.5</span>
+   &#160;<span id="projectnumber">2.2.6</span>
    </div>
    <div id="projectbrief">lebai motion control C interface</div>
   </td>
@@ -85,14 +85,14 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 </div><!--header-->
 <div class="contents">
 <div class="textblock"><h1>Overview</h1>
-<p>This library is a optimize and rewrite of lebai-kdl, which is not well designed:</p><ol type="1">
+<p>This library is a optimize and rewrite of old lebai control algorithm library, which is not well designed:</p><ol type="1">
 <li>Mix everything into one single file.</li>
 <li>Conflict coding style.</li>
 <li>Wrong abstraction and bad interface design.</li>
 <li>Insufficiency of unit test.</li>
 <li>Lack of document.</li>
 </ol>
-<p>The library interface is written in pure C.(Althrough The implementation parts contains C++ code) The library provides functionality to do the core motion control of lebai robotics. For any other language(Rust, python), you can simply use language binding to call these function directly since C is mostly used and supported system language.</p>
+<p>The library interface is written in pure C.(Althrough The implementation parts is written in C++) The library provides functionality to do the core motion control of lebai robotics. For any other language(Rust, python), you can simply use language binding to call these function directly since C is mostly used and supported system language.</p>
 <p>Look at <a class="el" href="md_doc_overview.html">overview</a> to get an detailed overview of lebai-motion-control library.</p>
 <h1>ChangeLog</h1>
 <p>Look at <a class="el" href="md_doc_changelog.html">ChangeLog</a>. </p><h1>Start here</h1>
@@ -101,7 +101,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <p>Look at <a class="el" href="md_doc_all_supported_robot_models.html">all_supported_robot_models</a>.</p>
 <h1>Link lib in rust project.</h1>
 <div class="fragment"><div class="line">println!(<span class="stringliteral">&quot;cargo:rustc-link-lib={}&quot;</span>, <span class="stringliteral">&quot;lebai_motion_control_overall&quot;</span>);</div><div class="line">println!(<span class="stringliteral">&quot;cargo:rustc-link-lib=dylib=stdc++&quot;</span>);</div><div class="line">println!(<span class="stringliteral">&quot;cargo:rustc-link-search=native={}&quot;</span>, <span class="stringliteral">&quot;dir_path_to_your_lib&quot;</span>)</div></div><!-- fragment --><h1>Using SI unit system</h1>
-<p>All the code and APIs are using <a href="https://en.wikipedia.org/wiki/SI_unit" title="SI">SI</a> system. * </p><table class="doxtable">
+<p>All the code and APIs are using <a href="https://en.wikipedia.org/wiki/SI_unit" title="SI">SI</a> system. </p><table class="doxtable">
 <tr>
 <th>Quantity </th><th>Unit Name </th><th>Synbol  </th></tr>
 <tr>
