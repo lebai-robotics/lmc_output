@@ -1,7 +1,8 @@
 <map id="lmc_tg.h" name="lmc_tg.h">
-<area shape="rect" id="node2" href="$lmc__robot__model_8h.html" title="Robot model related data structures and functions. " alt="" coords="85,80,231,121"/>
-<area shape="rect" id="node6" href="$lmc__joint_8h.html" title="Joint related data structure. " alt="" coords="196,169,341,211"/>
-<area shape="rect" id="node7" href="$lmc__tg__config_8h.html" title="Trajectory generator configuration data structure. " alt="" coords="307,80,452,121"/>
-<area shape="rect" id="node3" href="$lmc__robot__model__config_8h.html" title="Robot model config related data structures. " alt="" coords="5,169,172,211"/>
-<area shape="rect" id="node5" href="$lmc__math_8h.html" title="Basic math data structure definitions and functions. " alt="" coords="228,259,373,300"/>
+<area shape="rect" id="node2" href="$lmc__robot__model_8h.html" title="Robot model related data structures and functions. " alt="" coords="168,80,313,121"/>
+<area shape="rect" id="node7" href="$lmc__joint_8h.html" title="Joint related data structure. " alt="" coords="5,169,151,211"/>
+<area shape="rect" id="node8" href="$lmc__tg__config_8h.html" title="Trajectory generator configuration data structure. " alt="" coords="365,169,511,211"/>
+<area shape="rect" id="node3" href="$lmc__robot__model__config_8h.html" title="Robot model config related data structures. " alt="" coords="175,169,341,211"/>
+<area shape="rect" id="node5" href="$lmc__config_8h.html" title="Global configuration macro. " alt="" coords="64,259,209,300"/>
+<area shape="rect" id="node6" href="$lmc__math_8h.html" title="Basic math data structure definitions and functions. " alt="" coords="353,259,499,300"/>
 </map>
