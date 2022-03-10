@@ -1,26 +1,27 @@
 digraph "lmc_tg.h"
 {
+ // LATEX_PDF_SIZE
   edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
   node [fontname="Helvetica",fontsize="10",shape=record];
-  Node1 [label="lmc_tg.h",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node1 [label="lmc_tg.h",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="Trajectory generator related data structures and functions."];
   Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
-  Node2 [label="motion_control/lmc\l_robot_model.h",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$lmc__robot__model_8h.html",tooltip="Robot model related data structures and functions. "];
+  Node2 [label="motion_control/lmc\l_robot_model.h",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$lmc__robot__model_8h.html",tooltip="Robot model related data structures and functions."];
   Node2 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
-  Node3 [label="motion_control/lmc\l_robot_model_config.h",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$lmc__robot__model__config_8h.html",tooltip="Robot model config related data structures. "];
+  Node3 [label="motion_control/lmc\l_robot_model_config.h",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$lmc__robot__model__config_8h.html",tooltip="Robot model config related data structures."];
   Node3 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
-  Node4 [label="stddef.h",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled"];
+  Node4 [label="stddef.h",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled",tooltip=" "];
   Node3 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
-  Node5 [label="motion_control/lmc\l_config.h",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$lmc__config_8h.html",tooltip="Global configuration macro. "];
+  Node5 [label="motion_control/lmc\l_config.h",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$lmc__config_8h.html",tooltip="Global configuration macro."];
   Node3 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
-  Node6 [label="motion_control/lmc\l_math.h",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$lmc__math_8h.html",tooltip="Basic math data structure definitions and functions. "];
+  Node6 [label="motion_control/lmc\l_math.h",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$lmc__math_8h.html",tooltip="Basic math data structure definitions and functions."];
   Node2 -> Node7 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
-  Node7 [label="motion_control/lmc\l_joint.h",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$lmc__joint_8h.html",tooltip="Joint related data structure. "];
+  Node7 [label="motion_control/lmc\l_joint.h",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$lmc__joint_8h.html",tooltip="Joint related data structure."];
   Node7 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
   Node1 -> Node7 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
   Node1 -> Node8 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
-  Node8 [label="motion_control/lmc\l_tg_config.h",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$lmc__tg__config_8h.html",tooltip="Trajectory generator configuration data structure. "];
+  Node8 [label="motion_control/lmc\l_tg_config.h",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$lmc__tg__config_8h.html",tooltip="Trajectory generator configuration data structure."];
   Node8 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
   Node8 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
   Node1 -> Node9 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
-  Node9 [label="stdbool.h",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled"];
+  Node9 [label="stdbool.h",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled",tooltip=" "];
 }

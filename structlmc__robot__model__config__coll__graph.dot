@@ -1,14 +1,15 @@
 digraph "lmc_robot_model_config"
 {
+ // LATEX_PDF_SIZE
   edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
   node [fontname="Helvetica",fontsize="10",shape=record];
-  Node1 [label="lmc_robot_model_config",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node1 [label="lmc_robot_model_config",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="Overall parameters for a robot model."];
   Node2 -> Node1 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" segments" ,fontname="Helvetica"];
-  Node2 [label="lmc_link_config",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$structlmc__link__config.html",tooltip="Overall parameter for a single link,. "];
+  Node2 [label="lmc_link_config",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$structlmc__link__config.html",tooltip="Overall parameter for a single link,."];
   Node3 -> Node2 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" dyn" ,fontname="Helvetica"];
-  Node3 [label="lmc_link_dyn_config",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$structlmc__link__dyn__config.html",tooltip="Dynamic parameter for a link. "];
+  Node3 [label="lmc_link_dyn_config",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$structlmc__link__dyn__config.html",tooltip="Dynamic parameter for a link."];
   Node4 -> Node3 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" com" ,fontname="Helvetica"];
-  Node4 [label="lmc_translation",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$structlmc__translation.html",tooltip="Cartesian translation coordinate. "];
+  Node4 [label="lmc_translation",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$structlmc__translation.html",tooltip="Cartesian translation coordinate."];
   Node5 -> Node2 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" dh" ,fontname="Helvetica"];
-  Node5 [label="lmc_link_dh_config",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$structlmc__link__dh__config.html",tooltip="DH parameter for a link. "];
+  Node5 [label="lmc_link_dh_config",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$structlmc__link__dh__config.html",tooltip="DH parameter for a link."];
 }
