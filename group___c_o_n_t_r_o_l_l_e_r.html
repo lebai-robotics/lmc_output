@@ -131,6 +131,9 @@ Functions</h2></td></tr>
 <tr class="memitem:gacc70a26b5e05893fb61964ac8ed24aaa"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___c_o_n_t_r_o_l_l_e_r.html#gacc70a26b5e05893fb61964ac8ed24aaa">lmc_controller_cartesian_admittance_config</a> (<a class="el" href="group___c_o_n_t_r_o_l_l_e_r.html#ga3da7559a5eb1ef2033120d45a5efa452">lmc_controller_t</a> *const controller, <a class="el" href="lmc__joint_8h.html#a997f3c13282a8cf93542e60677852155">lmc_joint_cmd_t</a> const *const joint_cmd, <a class="el" href="group___c_o_n_t_r_o_l_l_e_r.html#gae115b39f6915c7c8d7c36bf1c538f4ef">lmc_controller_cartesian_admittance_config_t</a> const *const config)</td></tr>
 <tr class="memdesc:gacc70a26b5e05893fb61964ac8ed24aaa"><td class="mdescLeft">&#160;</td><td class="mdescRight">Cartesian admittance controll block config function for robot.  <a href="#gacc70a26b5e05893fb61964ac8ed24aaa">More...</a><br /></td></tr>
 <tr class="separator:gacc70a26b5e05893fb61964ac8ed24aaa"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga5218e00a49204c30ff0bac654cd243b3"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___c_o_n_t_r_o_l_l_e_r.html#ga5218e00a49204c30ff0bac654cd243b3">lmc_controller_cartesian_admittance_set_task_frame</a> (<a class="el" href="group___c_o_n_t_r_o_l_l_e_r.html#ga3da7559a5eb1ef2033120d45a5efa452">lmc_controller_t</a> *const controller, <a class="el" href="group___m_a_t_h.html#ga43c94b4eb1f98950076ef8ad6465c8f7">lmc_transform_t</a> const *const task_frame)</td></tr>
+<tr class="memdesc:ga5218e00a49204c30ff0bac654cd243b3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Cartesian admittance controll block set task frame.  <a href="#ga5218e00a49204c30ff0bac654cd243b3">More...</a><br /></td></tr>
+<tr class="separator:ga5218e00a49204c30ff0bac654cd243b3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga01257d52a9116625c284dc64181f7a30"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___c_o_n_t_r_o_l_l_e_r.html#ga01257d52a9116625c284dc64181f7a30">lmc_controller_cartesian_admittance_update</a> (<a class="el" href="group___c_o_n_t_r_o_l_l_e_r.html#ga3da7559a5eb1ef2033120d45a5efa452">lmc_controller_t</a> *const controller, <a class="el" href="lmc__joint_8h.html#a997f3c13282a8cf93542e60677852155">lmc_joint_cmd_t</a> const *const in_joint_cmd, <a class="el" href="lmc__joint_8h.html#a834eed68f0b2dad17a4f52a885e5e1d5">lmc_joint_state_t</a> const *const in_joint_state, <a class="el" href="group___m_a_t_h.html#ga1dd90baeb816dc67ba461608a660e5c1">lmc_wrench_t</a> const *const in_external_force, double *const out_joint_pos_offset)</td></tr>
 <tr class="memdesc:ga01257d52a9116625c284dc64181f7a30"><td class="mdescLeft">&#160;</td><td class="mdescRight">Cartesian admittance control block update function for robot. As in the following picture, when force_mode is enabled, an loop is inserted after the <a class="el" href="group___t_r_a_j_e_c_t_o_r_y___g_e_n_e_r_a_t_o_r.html">trajectory_generator</a>.  <a href="#ga01257d52a9116625c284dc64181f7a30">More...</a><br /></td></tr>
 <tr class="separator:ga01257d52a9116625c284dc64181f7a30"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -201,7 +204,7 @@ Functions</h2></td></tr>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>Return 1 for activated, 0 for not activated. </dd></dl>
 
-<p>Definition at line <a class="el" href="lmc__controller_8cc_source.html#l00213">213</a> of file <a class="el" href="lmc__controller_8cc_source.html">lmc_controller.cc</a>.</p>
+<p>Definition at line <a class="el" href="lmc__controller_8cc_source.html#l00227">227</a> of file <a class="el" href="lmc__controller_8cc_source.html">lmc_controller.cc</a>.</p>
 
 </div>
 </div>
@@ -229,7 +232,7 @@ Usually called when emergency happend, in this case, you don't have to call upda
   </dd>
 </dl>
 
-<p>Definition at line <a class="el" href="lmc__controller_8cc_source.html#l00239">239</a> of file <a class="el" href="lmc__controller_8cc_source.html">lmc_controller.cc</a>.</p>
+<p>Definition at line <a class="el" href="lmc__controller_8cc_source.html#l00253">253</a> of file <a class="el" href="lmc__controller_8cc_source.html">lmc_controller.cc</a>.</p>
 
 </div>
 </div>
@@ -274,7 +277,7 @@ Usually called when emergency happend, in this case, you don't have to call upda
   </dd>
 </dl>
 
-<p>Definition at line <a class="el" href="lmc__controller_8cc_source.html#l00120">120</a> of file <a class="el" href="lmc__controller_8cc_source.html">lmc_controller.cc</a>.</p>
+<p>Definition at line <a class="el" href="lmc__controller_8cc_source.html#l00121">121</a> of file <a class="el" href="lmc__controller_8cc_source.html">lmc_controller.cc</a>.</p>
 
 </div>
 </div>
@@ -301,7 +304,7 @@ Usually called when emergency happend, in this case, you don't have to call upda
   </dd>
 </dl>
 
-<p>Definition at line <a class="el" href="lmc__controller_8cc_source.html#l00208">208</a> of file <a class="el" href="lmc__controller_8cc_source.html">lmc_controller.cc</a>.</p>
+<p>Definition at line <a class="el" href="lmc__controller_8cc_source.html#l00222">222</a> of file <a class="el" href="lmc__controller_8cc_source.html">lmc_controller.cc</a>.</p>
 
 </div>
 </div>
@@ -339,7 +342,7 @@ Usually called when emergency happend, in this case, you don't have to call upda
   </dd>
 </dl>
 
-<p>Definition at line <a class="el" href="lmc__controller_8cc_source.html#l00218">218</a> of file <a class="el" href="lmc__controller_8cc_source.html">lmc_controller.cc</a>.</p>
+<p>Definition at line <a class="el" href="lmc__controller_8cc_source.html#l00232">232</a> of file <a class="el" href="lmc__controller_8cc_source.html">lmc_controller.cc</a>.</p>
 
 </div>
 </div>
@@ -377,7 +380,7 @@ Usually called when emergency happend, in this case, you don't have to call upda
   </dd>
 </dl>
 
-<p>Definition at line <a class="el" href="lmc__controller_8cc_source.html#l00233">233</a> of file <a class="el" href="lmc__controller_8cc_source.html">lmc_controller.cc</a>.</p>
+<p>Definition at line <a class="el" href="lmc__controller_8cc_source.html#l00247">247</a> of file <a class="el" href="lmc__controller_8cc_source.html">lmc_controller.cc</a>.</p>
 
 </div>
 </div>
@@ -415,7 +418,7 @@ Usually called when emergency happend, in this case, you don't have to call upda
   </dd>
 </dl>
 
-<p>Definition at line <a class="el" href="lmc__controller_8cc_source.html#l00228">228</a> of file <a class="el" href="lmc__controller_8cc_source.html">lmc_controller.cc</a>.</p>
+<p>Definition at line <a class="el" href="lmc__controller_8cc_source.html#l00242">242</a> of file <a class="el" href="lmc__controller_8cc_source.html">lmc_controller.cc</a>.</p>
 
 </div>
 </div>
@@ -453,7 +456,45 @@ Usually called when emergency happend, in this case, you don't have to call upda
   </dd>
 </dl>
 
-<p>Definition at line <a class="el" href="lmc__controller_8cc_source.html#l00223">223</a> of file <a class="el" href="lmc__controller_8cc_source.html">lmc_controller.cc</a>.</p>
+<p>Definition at line <a class="el" href="lmc__controller_8cc_source.html#l00237">237</a> of file <a class="el" href="lmc__controller_8cc_source.html">lmc_controller.cc</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="ga5218e00a49204c30ff0bac654cd243b3"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void lmc_controller_cartesian_admittance_set_task_frame </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="group___c_o_n_t_r_o_l_l_e_r.html#ga3da7559a5eb1ef2033120d45a5efa452">lmc_controller_t</a> *const&#160;</td>
+          <td class="paramname"><em>controller</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="group___m_a_t_h.html#ga43c94b4eb1f98950076ef8ad6465c8f7">lmc_transform_t</a> const *const&#160;</td>
+          <td class="paramname"><em>task_frame</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Cartesian admittance controll block set task frame. </p>
+<dl class="section note"><dt>Note</dt><dd>This function can be called in realtime to change the current task frame. </dd></dl>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">controller</td><td>Controller data for controller computing. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">task_frame</td><td>task frame. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p>Definition at line <a class="el" href="lmc__controller_8cc_source.html#l00175">175</a> of file <a class="el" href="lmc__controller_8cc_source.html">lmc_controller.cc</a>.</p>
 
 </div>
 </div>
@@ -516,7 +557,7 @@ When the force_mode is disabled, the update function output joint pos offset is 
   </dd>
 </dl>
 
-<p>Definition at line <a class="el" href="lmc__controller_8cc_source.html#l00175">175</a> of file <a class="el" href="lmc__controller_8cc_source.html">lmc_controller.cc</a>.</p>
+<p>Definition at line <a class="el" href="lmc__controller_8cc_source.html#l00189">189</a> of file <a class="el" href="lmc__controller_8cc_source.html">lmc_controller.cc</a>.</p>
 
 </div>
 </div>
@@ -575,7 +616,7 @@ When the force_mode is disabled, the update function output joint pos offset is 
   </dd>
 </dl>
 
-<p>Definition at line <a class="el" href="lmc__controller_8cc_source.html#l00068">68</a> of file <a class="el" href="lmc__controller_8cc_source.html">lmc_controller.cc</a>.</p>
+<p>Definition at line <a class="el" href="lmc__controller_8cc_source.html#l00069">69</a> of file <a class="el" href="lmc__controller_8cc_source.html">lmc_controller.cc</a>.</p>
 
 </div>
 </div>
@@ -621,7 +662,7 @@ When the force_mode is disabled, the update function output joint pos offset is 
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>Return 0 on success, otherwise failure. </dd></dl>
 
-<p>Definition at line <a class="el" href="lmc__controller_8cc_source.html#l00098">98</a> of file <a class="el" href="lmc__controller_8cc_source.html">lmc_controller.cc</a>.</p>
+<p>Definition at line <a class="el" href="lmc__controller_8cc_source.html#l00099">99</a> of file <a class="el" href="lmc__controller_8cc_source.html">lmc_controller.cc</a>.</p>
 
 </div>
 </div>
@@ -648,7 +689,7 @@ When the force_mode is disabled, the update function output joint pos offset is 
   </dd>
 </dl>
 
-<p>Definition at line <a class="el" href="lmc__controller_8cc_source.html#l00021">21</a> of file <a class="el" href="lmc__controller_8cc_source.html">lmc_controller.cc</a>.</p>
+<p>Definition at line <a class="el" href="lmc__controller_8cc_source.html#l00022">22</a> of file <a class="el" href="lmc__controller_8cc_source.html">lmc_controller.cc</a>.</p>
 
 </div>
 </div>
@@ -693,7 +734,7 @@ When the force_mode is disabled, the update function output joint pos offset is 
   </dd>
 </dl>
 
-<p>Definition at line <a class="el" href="lmc__controller_8cc_source.html#l00044">44</a> of file <a class="el" href="lmc__controller_8cc_source.html">lmc_controller.cc</a>.</p>
+<p>Definition at line <a class="el" href="lmc__controller_8cc_source.html#l00045">45</a> of file <a class="el" href="lmc__controller_8cc_source.html">lmc_controller.cc</a>.</p>
 
 </div>
 </div>
@@ -739,7 +780,7 @@ When the force_mode is disabled, the update function output joint pos offset is 
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>Return 0 on success, otherwise failed. </dd></dl>
 
-<p>Definition at line <a class="el" href="lmc__controller_8cc_source.html#l00030">30</a> of file <a class="el" href="lmc__controller_8cc_source.html">lmc_controller.cc</a>.</p>
+<p>Definition at line <a class="el" href="lmc__controller_8cc_source.html#l00031">31</a> of file <a class="el" href="lmc__controller_8cc_source.html">lmc_controller.cc</a>.</p>
 
 </div>
 </div>
@@ -759,7 +800,7 @@ When the force_mode is disabled, the update function output joint pos offset is 
 <p>Create a controller data instance. </p>
 <dl class="section note"><dt>Note</dt><dd>Controller is a data structure contains all the controller instance. It's a core data structure to many controller block procedure. Controller data must be inited by calling <a class="el" href="group___c_o_n_t_r_o_l_l_e_r.html#ga929da7aabf44ec318fd0361cba9bb38a">lmc_controller_init</a> before any usage. </dd></dl>
 
-<p>Definition at line <a class="el" href="lmc__controller_8cc_source.html#l00016">16</a> of file <a class="el" href="lmc__controller_8cc_source.html">lmc_controller.cc</a>.</p>
+<p>Definition at line <a class="el" href="lmc__controller_8cc_source.html#l00017">17</a> of file <a class="el" href="lmc__controller_8cc_source.html">lmc_controller.cc</a>.</p>
 
 </div>
 </div>
