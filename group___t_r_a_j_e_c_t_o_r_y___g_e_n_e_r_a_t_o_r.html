@@ -25,7 +25,7 @@
   <td id="projectlogo"><img alt="Logo" src="logo.png"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">lebai-motion-control
-   &#160;<span id="projectnumber">2.2.6</span>
+   &#160;<span id="projectnumber">2.2.8</span>
    </div>
    <div id="projectbrief">lebai motion control C interface</div>
   </td>
@@ -268,11 +268,14 @@ Functions</h2></td></tr>
 <tr class="memdesc:ga331538e063b89f5cab68e85712fa5903"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get number of buffered trajectory .  <a href="#ga331538e063b89f5cab68e85712fa5903">More...</a><br /></td></tr>
 <tr class="separator:ga331538e063b89f5cab68e85712fa5903"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:gaa510aa3dfbcdf6429032e685a933bfd0"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___t_r_a_j_e_c_t_o_r_y___g_e_n_e_r_a_t_o_r.html#gaa510aa3dfbcdf6429032e685a933bfd0">lmc_tg_get_buffer_empty</a> (<a class="el" href="group___t_r_a_j_e_c_t_o_r_y___g_e_n_e_r_a_t_o_r.html#ga315fdb9ab1a67d40e74660eb4045e25a">lmc_tg_t</a> const *const tg)</td></tr>
-<tr class="memdesc:gaa510aa3dfbcdf6429032e685a933bfd0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get if buffer is empty .  <a href="#gaa510aa3dfbcdf6429032e685a933bfd0">More...</a><br /></td></tr>
+<tr class="memdesc:gaa510aa3dfbcdf6429032e685a933bfd0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get if buffer is empty.  <a href="#gaa510aa3dfbcdf6429032e685a933bfd0">More...</a><br /></td></tr>
 <tr class="separator:gaa510aa3dfbcdf6429032e685a933bfd0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:gad02a60f143f76a23fd5e0b1c59d4711a"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___t_r_a_j_e_c_t_o_r_y___g_e_n_e_r_a_t_o_r.html#gad02a60f143f76a23fd5e0b1c59d4711a">lmc_tg_get_buffer_full</a> (<a class="el" href="group___t_r_a_j_e_c_t_o_r_y___g_e_n_e_r_a_t_o_r.html#ga315fdb9ab1a67d40e74660eb4045e25a">lmc_tg_t</a> const *const tg)</td></tr>
-<tr class="memdesc:gad02a60f143f76a23fd5e0b1c59d4711a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get if buffer is full .  <a href="#gad02a60f143f76a23fd5e0b1c59d4711a">More...</a><br /></td></tr>
+<tr class="memdesc:gad02a60f143f76a23fd5e0b1c59d4711a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get if buffer is full.  <a href="#gad02a60f143f76a23fd5e0b1c59d4711a">More...</a><br /></td></tr>
 <tr class="separator:gad02a60f143f76a23fd5e0b1c59d4711a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga8f61034f53f7b017a6cb7ad237384098"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___t_r_a_j_e_c_t_o_r_y___g_e_n_e_r_a_t_o_r.html#ga8f61034f53f7b017a6cb7ad237384098">lmc_tg_get_remain_move_time</a> (<a class="el" href="group___t_r_a_j_e_c_t_o_r_y___g_e_n_e_r_a_t_o_r.html#ga315fdb9ab1a67d40e74660eb4045e25a">lmc_tg_t</a> const *const tg)</td></tr>
+<tr class="memdesc:ga8f61034f53f7b017a6cb7ad237384098"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get total time to move remain trajectoies in buffer.  <a href="#ga8f61034f53f7b017a6cb7ad237384098">More...</a><br /></td></tr>
+<tr class="separator:ga8f61034f53f7b017a6cb7ad237384098"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga016b809f89a3853c499bc2959be8ae7d"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___t_r_a_j_e_c_t_o_r_y___g_e_n_e_r_a_t_o_r.html#ga016b809f89a3853c499bc2959be8ae7d">lmc_tg_update_joint_state</a> (<a class="el" href="group___t_r_a_j_e_c_t_o_r_y___g_e_n_e_r_a_t_o_r.html#ga315fdb9ab1a67d40e74660eb4045e25a">lmc_tg_t</a> *const tg, <a class="el" href="lmc__joint_8h.html#a834eed68f0b2dad17a4f52a885e5e1d5">lmc_joint_state_t</a> const *const joint_state)</td></tr>
 <tr class="memdesc:ga016b809f89a3853c499bc2959be8ae7d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Update trajectory generator joint state, should be called in realtime loop, update every cycle. This is used when trajectory generator wants to know the joint actual pos, vel torque information.  <a href="#ga016b809f89a3853c499bc2959be8ae7d">More...</a><br /></td></tr>
 <tr class="separator:ga016b809f89a3853c499bc2959be8ae7d"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -642,8 +645,6 @@ Functions</h2></td></tr>
 <dl class="section return"><dt>Returns</dt><dd></dd></dl>
 <dl class="section see"><dt>See also</dt><dd><a class="el" href="group___t_r_a_j_e_c_t_o_r_y___g_e_n_e_r_a_t_o_r.html#ga1765871cf2aabd5603dbd71ec99f23c2" title="trjecotry generator buffer xxx function ret ">lmc_tg_buffer_ret</a> to get return information. </dd></dl>
 
-<p>Definition at line <a class="el" href="lmc__tg_8cc_source.html#l00202">202</a> of file <a class="el" href="lmc__tg_8cc_source.html">lmc_tg.cc</a>.</p>
-
 </div>
 </div>
 <a class="anchor" id="ga2a493ab61ef5089f94b8714da906988b"></a>
@@ -717,8 +718,6 @@ Functions</h2></td></tr>
 <dl class="section return"><dt>Returns</dt><dd></dd></dl>
 <dl class="section see"><dt>See also</dt><dd><a class="el" href="group___t_r_a_j_e_c_t_o_r_y___g_e_n_e_r_a_t_o_r.html#ga1765871cf2aabd5603dbd71ec99f23c2" title="trjecotry generator buffer xxx function ret ">lmc_tg_buffer_ret</a> to get return information. </dd></dl>
 
-<p>Definition at line <a class="el" href="lmc__tg_8cc_source.html#l00214">214</a> of file <a class="el" href="lmc__tg_8cc_source.html">lmc_tg.cc</a>.</p>
-
 </div>
 </div>
 <a class="anchor" id="gade00ed8b56c0e2c6f02bdef071723db2"></a>
@@ -770,9 +769,8 @@ Functions</h2></td></tr>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd></dd></dl>
 <dl class="section see"><dt>See also</dt><dd><a class="el" href="group___t_r_a_j_e_c_t_o_r_y___g_e_n_e_r_a_t_o_r.html#ga1765871cf2aabd5603dbd71ec99f23c2" title="trjecotry generator buffer xxx function ret ">lmc_tg_buffer_ret</a> to get return information. </dd></dl>
-
-<p>Definition at line <a class="el" href="lmc__tg_8cc_source.html#l00178">178</a> of file <a class="el" href="lmc__tg_8cc_source.html">lmc_tg.cc</a>.</p>
-
+<dl><dt><b>Examples: </b></dt><dd><a class="el" href="example_tg_8cc-example.html#a33">example_tg.cc</a>.</dd>
+</dl>
 </div>
 </div>
 <a class="anchor" id="ga2b9995e04e6942cb110751d23a226a87"></a>
@@ -823,8 +821,6 @@ Functions</h2></td></tr>
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>Return 0 on success, otherwise failed. </dd></dl>
-
-<p>Definition at line <a class="el" href="lmc__tg_8cc_source.html#l00241">241</a> of file <a class="el" href="lmc__tg_8cc_source.html">lmc_tg.cc</a>.</p>
 
 </div>
 </div>
@@ -877,8 +873,6 @@ Functions</h2></td></tr>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>Return 0 on success, otherwise failed. </dd></dl>
 
-<p>Definition at line <a class="el" href="lmc__tg_8cc_source.html#l00264">264</a> of file <a class="el" href="lmc__tg_8cc_source.html">lmc_tg.cc</a>.</p>
-
 </div>
 </div>
 <a class="anchor" id="ga6c0a9dbf117f95a4c6e301a9e2c5f08d"></a>
@@ -929,8 +923,6 @@ Functions</h2></td></tr>
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>0 on success, otherwise failed. </dd></dl>
-
-<p>Definition at line <a class="el" href="lmc__tg_8cc_source.html#l00252">252</a> of file <a class="el" href="lmc__tg_8cc_source.html">lmc_tg.cc</a>.</p>
 
 </div>
 </div>
@@ -983,8 +975,6 @@ Functions</h2></td></tr>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd></dd></dl>
 <dl class="section see"><dt>See also</dt><dd><a class="el" href="group___t_r_a_j_e_c_t_o_r_y___g_e_n_e_r_a_t_o_r.html#ga1765871cf2aabd5603dbd71ec99f23c2" title="trjecotry generator buffer xxx function ret ">lmc_tg_buffer_ret</a> to get return information. </dd></dl>
-
-<p>Definition at line <a class="el" href="lmc__tg_8cc_source.html#l00191">191</a> of file <a class="el" href="lmc__tg_8cc_source.html">lmc_tg.cc</a>.</p>
 
 </div>
 </div>
@@ -1048,8 +1038,6 @@ lmc_tg_buffer_speed_joint(tg, id, joint_vel, &amp;param);
 </dl>
 <dl class="section return"><dt>Returns</dt><dd></dd></dl>
 <dl class="section see"><dt>See also</dt><dd><a class="el" href="group___t_r_a_j_e_c_t_o_r_y___g_e_n_e_r_a_t_o_r.html#ga1765871cf2aabd5603dbd71ec99f23c2" title="trjecotry generator buffer xxx function ret ">lmc_tg_buffer_ret</a> to get return information. </dd></dl>
-
-<p>Definition at line <a class="el" href="lmc__tg_8cc_source.html#l00227">227</a> of file <a class="el" href="lmc__tg_8cc_source.html">lmc_tg.cc</a>.</p>
 
 </div>
 </div>
@@ -1120,8 +1108,6 @@ lmc_tg_buffer_speed_joint(tg, id, &amp;t, &amp;param);
 <dl class="section return"><dt>Returns</dt><dd></dd></dl>
 <dl class="section see"><dt>See also</dt><dd><a class="el" href="group___t_r_a_j_e_c_t_o_r_y___g_e_n_e_r_a_t_o_r.html#ga1765871cf2aabd5603dbd71ec99f23c2" title="trjecotry generator buffer xxx function ret ">lmc_tg_buffer_ret</a> to get return information. </dd></dl>
 
-<p>Definition at line <a class="el" href="lmc__tg_8cc_source.html#l00233">233</a> of file <a class="el" href="lmc__tg_8cc_source.html">lmc_tg.cc</a>.</p>
-
 </div>
 </div>
 <a class="anchor" id="ga51cfdeb2383fbbffbbe0f37c1bb62cf7"></a>
@@ -1147,8 +1133,6 @@ lmc_tg_buffer_speed_joint(tg, id, &amp;t, &amp;param);
   </dd>
 </dl>
 
-<p>Definition at line <a class="el" href="lmc__tg_8cc_source.html#l00039">39</a> of file <a class="el" href="lmc__tg_8cc_source.html">lmc_tg.cc</a>.</p>
-
 </div>
 </div>
 <a class="anchor" id="gaea9fd7e22f6133a50a743f467130bade"></a>
@@ -1173,9 +1157,8 @@ lmc_tg_buffer_speed_joint(tg, id, &amp;t, &amp;param);
   </table>
   </dd>
 </dl>
-
-<p>Definition at line <a class="el" href="lmc__tg_8cc_source.html#l00020">20</a> of file <a class="el" href="lmc__tg_8cc_source.html">lmc_tg.cc</a>.</p>
-
+<dl><dt><b>Examples: </b></dt><dd><a class="el" href="example_tg_8cc-example.html#a37">example_tg.cc</a>.</dd>
+</dl>
 </div>
 </div>
 <a class="anchor" id="gaa510aa3dfbcdf6429032e685a933bfd0"></a>
@@ -1192,7 +1175,7 @@ lmc_tg_buffer_speed_joint(tg, id, &amp;t, &amp;param);
       </table>
 </div><div class="memdoc">
 
-<p>Get if buffer is empty . </p>
+<p>Get if buffer is empty. </p>
 <dl class="section note"><dt>Note</dt><dd></dd></dl>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
@@ -1201,8 +1184,6 @@ lmc_tg_buffer_speed_joint(tg, id, &amp;t, &amp;param);
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>Return 1 for empty, 0 for none empty. </dd></dl>
-
-<p>Definition at line <a class="el" href="lmc__tg_8cc_source.html#l00297">297</a> of file <a class="el" href="lmc__tg_8cc_source.html">lmc_tg.cc</a>.</p>
 
 </div>
 </div>
@@ -1220,7 +1201,7 @@ lmc_tg_buffer_speed_joint(tg, id, &amp;t, &amp;param);
       </table>
 </div><div class="memdoc">
 
-<p>Get if buffer is full . </p>
+<p>Get if buffer is full. </p>
 <dl class="section note"><dt>Note</dt><dd></dd></dl>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
@@ -1229,8 +1210,6 @@ lmc_tg_buffer_speed_joint(tg, id, &amp;t, &amp;param);
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>Return 1 for full, 0 for not full. </dd></dl>
-
-<p>Definition at line <a class="el" href="lmc__tg_8cc_source.html#l00303">303</a> of file <a class="el" href="lmc__tg_8cc_source.html">lmc_tg.cc</a>.</p>
 
 </div>
 </div>
@@ -1258,8 +1237,6 @@ lmc_tg_buffer_speed_joint(tg, id, &amp;t, &amp;param);
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>Number of buffered trajectory. </dd></dl>
 
-<p>Definition at line <a class="el" href="lmc__tg_8cc_source.html#l00291">291</a> of file <a class="el" href="lmc__tg_8cc_source.html">lmc_tg.cc</a>.</p>
-
 </div>
 </div>
 <a class="anchor" id="gadf1c165674f505282f8cc857d0e7238f"></a>
@@ -1286,7 +1263,31 @@ lmc_tg_buffer_speed_joint(tg, id, &amp;t, &amp;param);
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>Group type data,you can see <a class="el" href="group___t_r_a_j_e_c_t_o_r_y___g_e_n_e_r_a_t_o_r.html#ga6ed7bdb146caeb1735a04515321e56f5">lmc_tg_group_type</a>. </dd></dl>
 
-<p>Definition at line <a class="el" href="lmc__tg_8cc_source.html#l00082">82</a> of file <a class="el" href="lmc__tg_8cc_source.html">lmc_tg.cc</a>.</p>
+</div>
+</div>
+<a class="anchor" id="ga8f61034f53f7b017a6cb7ad237384098"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">double lmc_tg_get_remain_move_time </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="group___t_r_a_j_e_c_t_o_r_y___g_e_n_e_r_a_t_o_r.html#ga315fdb9ab1a67d40e74660eb4045e25a">lmc_tg_t</a> const *const&#160;</td>
+          <td class="paramname"><em>tg</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Get total time to move remain trajectoies in buffer. </p>
+<dl class="section note"><dt>Note</dt><dd></dd></dl>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">tg</td><td>Trajectory generator data. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>Return time to move. return -1.0 means can't compute the time.(If there is speedl or speedj in trajectory buffer, the time can't be computed.) </dd></dl>
 
 </div>
 </div>
@@ -1313,8 +1314,6 @@ lmc_tg_buffer_speed_joint(tg, id, &amp;t, &amp;param);
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>update state of last update call. </dd></dl>
-
-<p>Definition at line <a class="el" href="lmc__tg_8cc_source.html#l00171">171</a> of file <a class="el" href="lmc__tg_8cc_source.html">lmc_tg.cc</a>.</p>
 
 </div>
 </div>
@@ -1359,9 +1358,8 @@ lmc_tg_buffer_speed_joint(tg, id, &amp;t, &amp;param);
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>0 on success, otherwise failed. </dd></dl>
-
-<p>Definition at line <a class="el" href="lmc__tg_8cc_source.html#l00128">128</a> of file <a class="el" href="lmc__tg_8cc_source.html">lmc_tg.cc</a>.</p>
-
+<dl><dt><b>Examples: </b></dt><dd><a class="el" href="example_tg_8cc-example.html#a36">example_tg.cc</a>.</dd>
+</dl>
 </div>
 </div>
 <a class="anchor" id="ga025b98e19721993da776678fa76472bc"></a>
@@ -1405,9 +1403,8 @@ lmc_tg_buffer_speed_joint(tg, id, &amp;t, &amp;param);
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>Return 0 on success, otherwise failed. </dd></dl>
-
-<p>Definition at line <a class="el" href="lmc__tg_8cc_source.html#l00029">29</a> of file <a class="el" href="lmc__tg_8cc_source.html">lmc_tg.cc</a>.</p>
-
+<dl><dt><b>Examples: </b></dt><dd><a class="el" href="example_tg_8cc-example.html#a21">example_tg.cc</a>.</dd>
+</dl>
 </div>
 </div>
 <a class="anchor" id="ga9d655e73c6f96b38cbb9d13984019488"></a>
@@ -1433,8 +1430,6 @@ lmc_tg_buffer_speed_joint(tg, id, &amp;t, &amp;param);
   </dd>
 </dl>
 
-<p>Definition at line <a class="el" href="lmc__tg_8cc_source.html#l00281">281</a> of file <a class="el" href="lmc__tg_8cc_source.html">lmc_tg.cc</a>.</p>
-
 </div>
 </div>
 <a class="anchor" id="gaa3d8f2c786cb5f0a72811f63d420a8cb"></a>
@@ -1452,9 +1447,8 @@ lmc_tg_buffer_speed_joint(tg, id, &amp;t, &amp;param);
 
 <p>Create a trajectory generator instance. </p>
 <dl class="section note"><dt>Note</dt><dd>Trajectory generator is a data structure contains infomation how to create trajectory interpolation. It's a core data structure to many trajectory algorithm. Trajectory generator data must be inited by calling <a class="el" href="group___t_r_a_j_e_c_t_o_r_y___g_e_n_e_r_a_t_o_r.html#ga025b98e19721993da776678fa76472bc">lmc_tg_init</a> before any usage. </dd></dl>
-
-<p>Definition at line <a class="el" href="lmc__tg_8cc_source.html#l00015">15</a> of file <a class="el" href="lmc__tg_8cc_source.html">lmc_tg.cc</a>.</p>
-
+<dl><dt><b>Examples: </b></dt><dd><a class="el" href="example_tg_8cc-example.html#a16">example_tg.cc</a>.</dd>
+</dl>
 </div>
 </div>
 <a class="anchor" id="gac58236ab3123b4b9bbb1ee40e216aaba"></a>
@@ -1479,8 +1473,6 @@ lmc_tg_buffer_speed_joint(tg, id, &amp;t, &amp;param);
   </table>
   </dd>
 </dl>
-
-<p>Definition at line <a class="el" href="lmc__tg_8cc_source.html#l00110">110</a> of file <a class="el" href="lmc__tg_8cc_source.html">lmc_tg.cc</a>.</p>
 
 </div>
 </div>
@@ -1519,8 +1511,6 @@ lmc_tg_buffer_speed_joint(tg, id, &amp;t, &amp;param);
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>Return 0 on success, otherwise failed. </dd></dl>
 
-<p>Definition at line <a class="el" href="lmc__tg_8cc_source.html#l00065">65</a> of file <a class="el" href="lmc__tg_8cc_source.html">lmc_tg.cc</a>.</p>
-
 </div>
 </div>
 <a class="anchor" id="gaf03551a5f860ca8f0c1ed82af187bef9"></a>
@@ -1557,9 +1547,8 @@ lmc_tg_buffer_speed_joint(tg, id, &amp;t, &amp;param);
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>Return 0 on success, otherwise failed. </dd></dl>
-
-<p>Definition at line <a class="el" href="lmc__tg_8cc_source.html#l00101">101</a> of file <a class="el" href="lmc__tg_8cc_source.html">lmc_tg.cc</a>.</p>
-
+<dl><dt><b>Examples: </b></dt><dd><a class="el" href="example_tg_8cc-example.html#a23">example_tg.cc</a>.</dd>
+</dl>
 </div>
 </div>
 <a class="anchor" id="gafe31a2a7ecd7c535a51cc91cd088a7d4"></a>
@@ -1596,9 +1585,8 @@ lmc_tg_buffer_speed_joint(tg, id, &amp;t, &amp;param);
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>Return 0 on success, otherwise failed. </dd></dl>
-
-<p>Definition at line <a class="el" href="lmc__tg_8cc_source.html#l00045">45</a> of file <a class="el" href="lmc__tg_8cc_source.html">lmc_tg.cc</a>.</p>
-
+<dl><dt><b>Examples: </b></dt><dd><a class="el" href="example_tg_8cc-example.html#a22">example_tg.cc</a>.</dd>
+</dl>
 </div>
 </div>
 <a class="anchor" id="ga448e20c59619ce1f27c14c87bd90be78"></a>
@@ -1635,8 +1623,6 @@ lmc_tg_buffer_speed_joint(tg, id, &amp;t, &amp;param);
   </dd>
 </dl>
 
-<p>Definition at line <a class="el" href="lmc__tg_8cc_source.html#l00286">286</a> of file <a class="el" href="lmc__tg_8cc_source.html">lmc_tg.cc</a>.</p>
-
 </div>
 </div>
 <a class="anchor" id="ga6997656b45422ade82d69716874fa635"></a>
@@ -1661,8 +1647,6 @@ lmc_tg_buffer_speed_joint(tg, id, &amp;t, &amp;param);
   </table>
   </dd>
 </dl>
-
-<p>Definition at line <a class="el" href="lmc__tg_8cc_source.html#l00276">276</a> of file <a class="el" href="lmc__tg_8cc_source.html">lmc_tg.cc</a>.</p>
 
 </div>
 </div>
@@ -1689,9 +1673,8 @@ lmc_tg_buffer_speed_joint(tg, id, &amp;t, &amp;param);
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>ret data <a class="el" href="group___t_r_a_j_e_c_t_o_r_y___g_e_n_e_r_a_t_o_r.html#ga2d435292cba1f18d42eb87e51267fcbe">lmc_tg_update_ret_t</a> of this update. </dd></dl>
-
-<p>Definition at line <a class="el" href="lmc__tg_8cc_source.html#l00116">116</a> of file <a class="el" href="lmc__tg_8cc_source.html">lmc_tg.cc</a>.</p>
-
+<dl><dt><b>Examples: </b></dt><dd><a class="el" href="example_tg_8cc-example.html#a25">example_tg.cc</a>.</dd>
+</dl>
 </div>
 </div>
 <a class="anchor" id="ga016b809f89a3853c499bc2959be8ae7d"></a>
@@ -1728,8 +1711,6 @@ lmc_tg_buffer_speed_joint(tg, id, &amp;t, &amp;param);
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>Return 0 on success, otherwise failed. </dd></dl>
-
-<p>Definition at line <a class="el" href="lmc__tg_8cc_source.html#l00312">312</a> of file <a class="el" href="lmc__tg_8cc_source.html">lmc_tg.cc</a>.</p>
 
 </div>
 </div>

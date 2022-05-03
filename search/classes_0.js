@@ -8,8 +8,6 @@ var searchData=
   ['lmc_5fgroup_5fignore_5flink_5fpairs',['lmc_group_ignore_link_pairs',['../structlmc__group__ignore__link__pairs.html',1,'']]],
   ['lmc_5fgroup_5fjoint_5finfo',['lmc_group_joint_info',['../structlmc__group__joint__info.html',1,'']]],
   ['lmc_5fgroup_5flink_5fpair',['lmc_group_link_pair',['../structlmc__group__link__pair.html',1,'']]],
-  ['lmc_5fgroup_5fmodel',['lmc_group_model',['../structlmc__group__model.html',1,'']]],
-  ['lmc_5fgroup_5fstate',['lmc_group_state',['../structlmc__group__state.html',1,'']]],
   ['lmc_5fjoint_5fcmd',['lmc_joint_cmd',['../structlmc__joint__cmd.html',1,'']]],
   ['lmc_5fjoint_5fstate',['lmc_joint_state',['../structlmc__joint__state.html',1,'']]],
   ['lmc_5flink_5fconfig',['lmc_link_config',['../structlmc__link__config.html',1,'']]],

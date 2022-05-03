@@ -25,7 +25,7 @@
   <td id="projectlogo"><img alt="Logo" src="logo.png"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">lebai-motion-control
-   &#160;<span id="projectnumber">2.2.6</span>
+   &#160;<span id="projectnumber">2.2.8</span>
    </div>
    <div id="projectbrief">lebai motion control C interface</div>
   </td>
@@ -112,10 +112,10 @@ Data Structures</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="typedef-members"></a>
 Typedefs</h2></td></tr>
-<tr class="memitem:gab85bc3bdf98dcd01e2d236f0806aeabc"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="structlmc__group__model.html">lmc_group_model</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___g_r_o_u_p.html#gab85bc3bdf98dcd01e2d236f0806aeabc">lmc_group_model_t</a></td></tr>
+<tr class="memitem:gab85bc3bdf98dcd01e2d236f0806aeabc"><td class="memItemLeft" align="right" valign="top">typedef struct lmc_group_model&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___g_r_o_u_p.html#gab85bc3bdf98dcd01e2d236f0806aeabc">lmc_group_model_t</a></td></tr>
 <tr class="memdesc:gab85bc3bdf98dcd01e2d236f0806aeabc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Group model data structure.  <a href="#gab85bc3bdf98dcd01e2d236f0806aeabc">More...</a><br /></td></tr>
 <tr class="separator:gab85bc3bdf98dcd01e2d236f0806aeabc"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga58c6f1c3d39b7519b9d695d9425cb901"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="structlmc__group__state.html">lmc_group_state</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___g_r_o_u_p.html#ga58c6f1c3d39b7519b9d695d9425cb901">lmc_group_state_t</a></td></tr>
+<tr class="memitem:ga58c6f1c3d39b7519b9d695d9425cb901"><td class="memItemLeft" align="right" valign="top">typedef struct lmc_group_state&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___g_r_o_u_p.html#ga58c6f1c3d39b7519b9d695d9425cb901">lmc_group_state_t</a></td></tr>
 <tr class="memdesc:ga58c6f1c3d39b7519b9d695d9425cb901"><td class="mdescLeft">&#160;</td><td class="mdescRight">Group state data structure, used for collision detect and motion planner.  <a href="#ga58c6f1c3d39b7519b9d695d9425cb901">More...</a><br /></td></tr>
 <tr class="separator:ga58c6f1c3d39b7519b9d695d9425cb901"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:gab7a19022517349432cf9b6a3c52f93b5"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="structlmc__group__joint__info.html">lmc_group_joint_info</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___g_r_o_u_p.html#gab7a19022517349432cf9b6a3c52f93b5">lmc_group_joint_info_t</a></td></tr>
@@ -268,7 +268,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">typedef struct <a class="el" href="structlmc__group__model.html">lmc_group_model</a> <a class="el" href="group___g_r_o_u_p.html#gab85bc3bdf98dcd01e2d236f0806aeabc">lmc_group_model_t</a></td>
+          <td class="memname">typedef struct lmc_group_model <a class="el" href="group___g_r_o_u_p.html#gab85bc3bdf98dcd01e2d236f0806aeabc">lmc_group_model_t</a></td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -285,7 +285,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">typedef struct <a class="el" href="structlmc__group__state.html">lmc_group_state</a> <a class="el" href="group___g_r_o_u_p.html#ga58c6f1c3d39b7519b9d695d9425cb901">lmc_group_state_t</a></td>
+          <td class="memname">typedef struct lmc_group_state <a class="el" href="group___g_r_o_u_p.html#ga58c6f1c3d39b7519b9d695d9425cb901">lmc_group_state_t</a></td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -320,9 +320,8 @@ Functions</h2></td></tr>
   </table>
   </dd>
 </dl>
-
-<p>Definition at line <a class="el" href="lmc__group_8cc_source.html#l00013">13</a> of file <a class="el" href="lmc__group_8cc_source.html">lmc_group.cc</a>.</p>
-
+<dl><dt><b>Examples: </b></dt><dd><a class="el" href="example_urdf_group_8cc-example.html#a19">example_urdf_group.cc</a>.</dd>
+</dl>
 </div>
 </div>
 <a class="anchor" id="ga103419b436e5e1207ac351a6d33ee3b8"></a>
@@ -359,8 +358,6 @@ Functions</h2></td></tr>
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>Return 0 on success, otherwise failure. </dd></dl>
-
-<p>Definition at line <a class="el" href="lmc__group_8cc_source.html#l00098">98</a> of file <a class="el" href="lmc__group_8cc_source.html">lmc_group.cc</a>.</p>
 
 </div>
 </div>
@@ -399,8 +396,6 @@ Functions</h2></td></tr>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>Return 0 on success, otherwise failure. </dd></dl>
 
-<p>Definition at line <a class="el" href="lmc__group_8cc_source.html#l00054">54</a> of file <a class="el" href="lmc__group_8cc_source.html">lmc_group.cc</a>.</p>
-
 </div>
 </div>
 <a class="anchor" id="gae9ae2180cba3ccd45f13ea8798fb1567"></a>
@@ -437,9 +432,8 @@ Functions</h2></td></tr>
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>Return 0 on success, otherwise failure. </dd></dl>
-
-<p>Definition at line <a class="el" href="lmc__group_8cc_source.html#l00035">35</a> of file <a class="el" href="lmc__group_8cc_source.html">lmc_group.cc</a>.</p>
-
+<dl><dt><b>Examples: </b></dt><dd><a class="el" href="example_urdf_group_8cc-example.html#a4">example_urdf_group.cc</a>.</dd>
+</dl>
 </div>
 </div>
 <a class="anchor" id="gad49ede5ee834a36b3fe07e70ca144826"></a>
@@ -476,9 +470,8 @@ Functions</h2></td></tr>
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>Return 0 on success, otherwise failure. </dd></dl>
-
-<p>Definition at line <a class="el" href="lmc__group_8cc_source.html#l00022">22</a> of file <a class="el" href="lmc__group_8cc_source.html">lmc_group.cc</a>.</p>
-
+<dl><dt><b>Examples: </b></dt><dd><a class="el" href="example_urdf_group_8cc-example.html#a2">example_urdf_group.cc</a>.</dd>
+</dl>
 </div>
 </div>
 <a class="anchor" id="ga96a1b64051d392059feb959c1e768b80"></a>
@@ -516,8 +509,6 @@ Functions</h2></td></tr>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>Return 0 on success, otherwise failure. </dd></dl>
 
-<p>Definition at line <a class="el" href="lmc__group_8cc_source.html#l00079">79</a> of file <a class="el" href="lmc__group_8cc_source.html">lmc_group.cc</a>.</p>
-
 </div>
 </div>
 <a class="anchor" id="ga355fb73996582aaca92871cc7be249ff"></a>
@@ -535,9 +526,8 @@ Functions</h2></td></tr>
 
 <p>Create a group model instance. </p>
 <dl class="section note"><dt>Note</dt><dd>Group model is a data structure contains kinematic and model info. It's a model data structure contains model(kinematic, geometry shape, and etc...) information. These information will be used in collision detection and motion planner algortihm. Group model must be init by calling <a class="el" href="group___g_r_o_u_p.html#gad49ede5ee834a36b3fe07e70ca144826">lmc_group_model_init_from_urdf_file</a> before any usage. </dd></dl>
-
-<p>Definition at line <a class="el" href="lmc__group_8cc_source.html#l00008">8</a> of file <a class="el" href="lmc__group_8cc_source.html">lmc_group.cc</a>.</p>
-
+<dl><dt><b>Examples: </b></dt><dd><a class="el" href="example_urdf_group_8cc-example.html#a1">example_urdf_group.cc</a>.</dd>
+</dl>
 </div>
 </div>
 <a class="anchor" id="ga69dd82207c10ff029e9d2f498dde8710"></a>
@@ -581,9 +571,8 @@ Functions</h2></td></tr>
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>Return 1 when colliding, return 0 when not colliding. </dd></dl>
-
-<p>Definition at line <a class="el" href="lmc__group_8cc_source.html#l00179">179</a> of file <a class="el" href="lmc__group_8cc_source.html">lmc_group.cc</a>.</p>
-
+<dl><dt><b>Examples: </b></dt><dd><a class="el" href="example_urdf_group_8cc-example.html#a7">example_urdf_group.cc</a>.</dd>
+</dl>
 </div>
 </div>
 <a class="anchor" id="ga4880b88ac3b981da0558709d31f62246"></a>
@@ -608,9 +597,8 @@ Functions</h2></td></tr>
   </table>
   </dd>
 </dl>
-
-<p>Definition at line <a class="el" href="lmc__group_8cc_source.html#l00137">137</a> of file <a class="el" href="lmc__group_8cc_source.html">lmc_group.cc</a>.</p>
-
+<dl><dt><b>Examples: </b></dt><dd><a class="el" href="example_urdf_group_8cc-example.html#a18">example_urdf_group.cc</a>.</dd>
+</dl>
 </div>
 </div>
 <a class="anchor" id="gacdbc44e4e264f40af85f402ed2691c87"></a>
@@ -636,8 +624,6 @@ Functions</h2></td></tr>
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>Distance computed. </dd></dl>
-
-<p>Definition at line <a class="el" href="lmc__group_8cc_source.html#l00209">209</a> of file <a class="el" href="lmc__group_8cc_source.html">lmc_group.cc</a>.</p>
 
 </div>
 </div>
@@ -675,9 +661,8 @@ Functions</h2></td></tr>
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>Return 0 on success, otherwise failure. </dd></dl>
-
-<p>Definition at line <a class="el" href="lmc__group_8cc_source.html#l00146">146</a> of file <a class="el" href="lmc__group_8cc_source.html">lmc_group.cc</a>.</p>
-
+<dl><dt><b>Examples: </b></dt><dd><a class="el" href="example_urdf_group_8cc-example.html#a6">example_urdf_group.cc</a>.</dd>
+</dl>
 </div>
 </div>
 <a class="anchor" id="ga1ea0cad02c25a936e0dc5f2563c915d2"></a>
@@ -695,9 +680,8 @@ Functions</h2></td></tr>
 
 <p>Create a group state instance. </p>
 <dl class="section note"><dt>Note</dt><dd>Group state must be init by calling <a class="el" href="group___g_r_o_u_p.html#gaefd53d69a0509e4adcbe17a4102631bc">lmc_group_state_init</a> before any usage. </dd></dl>
-
-<p>Definition at line <a class="el" href="lmc__group_8cc_source.html#l00132">132</a> of file <a class="el" href="lmc__group_8cc_source.html">lmc_group.cc</a>.</p>
-
+<dl><dt><b>Examples: </b></dt><dd><a class="el" href="example_urdf_group_8cc-example.html#a5">example_urdf_group.cc</a>.</dd>
+</dl>
 </div>
 </div>
 <a class="anchor" id="gadc1c16cb517b5886d9060d0cea95482f"></a>
@@ -749,8 +733,6 @@ Functions</h2></td></tr>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>Return 1 when colliding, return 0 when not colliding. </dd></dl>
 
-<p>Definition at line <a class="el" href="lmc__group_8cc_source.html#l00214">214</a> of file <a class="el" href="lmc__group_8cc_source.html">lmc_group.cc</a>.</p>
-
 </div>
 </div>
 <a class="anchor" id="ga45c83afb67895b5d9f2df22a1d14ed60"></a>
@@ -788,8 +770,6 @@ Functions</h2></td></tr>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>Distance computed. </dd></dl>
 
-<p>Definition at line <a class="el" href="lmc__group_8cc_source.html#l00243">243</a> of file <a class="el" href="lmc__group_8cc_source.html">lmc_group.cc</a>.</p>
-
 </div>
 </div>
 <a class="anchor" id="ga8c31216be7ca840e1a892f26faafa8fa"></a>
@@ -826,9 +806,8 @@ Functions</h2></td></tr>
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>Return 0 on success, otherwise failure. </dd></dl>
-
-<p>Definition at line <a class="el" href="lmc__group_8cc_source.html#l00155">155</a> of file <a class="el" href="lmc__group_8cc_source.html">lmc_group.cc</a>.</p>
-
+<dl><dt><b>Examples: </b></dt><dd><a class="el" href="example_urdf_group_8cc-example.html#a8">example_urdf_group.cc</a>.</dd>
+</dl>
 </div>
 </div>
 <a class="anchor" id="gae5d01293e5266e92bd9312e76ef752e5"></a>
@@ -865,9 +844,8 @@ Functions</h2></td></tr>
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>Return 0 when colliding, return 0 when not colliding. </dd></dl>
-
-<p>Definition at line <a class="el" href="lmc__group_8cc_source.html#l00170">170</a> of file <a class="el" href="lmc__group_8cc_source.html">lmc_group.cc</a>.</p>
-
+<dl><dt><b>Examples: </b></dt><dd><a class="el" href="example_urdf_group_8cc-example.html#a9">example_urdf_group.cc</a>.</dd>
+</dl>
 </div>
 </div>
 </div><!-- contents -->

@@ -6,8 +6,6 @@ var searchData=
   ['cartesian_5fmax_5frot_5fv',['cartesian_max_rot_v',['../structlmc__tg__limit.html#af7632e7ee3f3778eb6a7608901cf5a94',1,'lmc_tg_limit']]],
   ['cartesian_5fmax_5fv',['cartesian_max_v',['../structlmc__tg__limit.html#ad03877e98063f07aafaecb06f08f8c1d',1,'lmc_tg_limit']]],
   ['cog',['cog',['../structlmc__tool__payload.html#a441d2a40627ed20f356990f0f9358bde',1,'lmc_tool_payload']]],
-  ['collision_5freq',['collision_req',['../structlmc__group__state.html#ad6ddd16453fd47a159a120930660ee02',1,'lmc_group_state']]],
-  ['collision_5fresp',['collision_resp',['../structlmc__group__state.html#ad0a3a6861710e961ea8de9090d7a1d95',1,'lmc_group_state']]],
   ['com',['com',['../structlmc__link__dyn__config.html#aabbd78d3be2c5d27667b333b498db937',1,'lmc_link_dyn_config']]],
   ['common',['COMMON',['../group___t_r_a_j_e_c_t_o_r_y___g_e_n_e_r_a_t_o_r.html#gga6ed7bdb146caeb1735a04515321e56f5ac1e0a2410a3e55b9cd5fa1a1d86f92c2',1,'lmc_tg.h']]],
   ['contacts',['contacts',['../structlmc__group__collide__resp.html#ac68688e096096c8f7df6076b690e9b8e',1,'lmc_group_collide_resp']]],
