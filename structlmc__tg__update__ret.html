@@ -25,7 +25,7 @@
   <td id="projectlogo"><img alt="Logo" src="logo.png"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">lebai-motion-control
-   &#160;<span id="projectnumber">2.2.8</span>
+   &#160;<span id="projectnumber">2.2.9</span>
    </div>
    <div id="projectbrief">lebai motion control C interface</div>
   </td>
@@ -103,28 +103,28 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 Data Fields</h2></td></tr>
 <tr class="memitem:ada1d7bb5acc52ee48b5dbe9c6276ca41"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group___t_r_a_j_e_c_t_o_r_y___g_e_n_e_r_a_t_o_r.html#ga416913aea20e5f82622d881fe66b1a60">lmc_tg_update_state_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structlmc__tg__update__ret.html#ada1d7bb5acc52ee48b5dbe9c6276ca41">state</a></td></tr>
 <tr class="separator:ada1d7bb5acc52ee48b5dbe9c6276ca41"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7d16b1c68c87cec009d972e79abfba78"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structlmc__tg__update__ret.html#a7d16b1c68c87cec009d972e79abfba78">error_code</a></td></tr>
-<tr class="separator:a7d16b1c68c87cec009d972e79abfba78"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a47fd5e7b99d3c88aa003f962fd9cc52e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group___t_r_a_j_e_c_t_o_r_y___g_e_n_e_r_a_t_o_r.html#ga12ca352578dc8a808b29be1a1e5fdb0a">lmc_tg_update_error_code_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structlmc__tg__update__ret.html#a47fd5e7b99d3c88aa003f962fd9cc52e">error_code</a></td></tr>
+<tr class="separator:a47fd5e7b99d3c88aa003f962fd9cc52e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Trjecotry generator update ret value. </p>
 <dl class="section note"><dt>Note</dt><dd>Same as trajectory_result_t in lebai_kdl </dd></dl>
 <dl><dt><b>Examples: </b></dt><dd><a class="el" href="example_tg_8cc-example.html#_a24">example_tg.cc</a>.</dd>
 </dl>
-<p>Definition at line <a class="el" href="lmc__tg_8h_source.html#l00070">70</a> of file <a class="el" href="lmc__tg_8h_source.html">lmc_tg.h</a>.</p>
+<p>Definition at line <a class="el" href="lmc__tg_8h_source.html#l00082">82</a> of file <a class="el" href="lmc__tg_8h_source.html">lmc_tg.h</a>.</p>
 </div><h2 class="groupheader">Field Documentation</h2>
-<a class="anchor" id="a7d16b1c68c87cec009d972e79abfba78"></a>
+<a class="anchor" id="a47fd5e7b99d3c88aa003f962fd9cc52e"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">int error_code</td>
+          <td class="memname"><a class="el" href="group___t_r_a_j_e_c_t_o_r_y___g_e_n_e_r_a_t_o_r.html#ga12ca352578dc8a808b29be1a1e5fdb0a">lmc_tg_update_error_code_t</a> error_code</td>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Error code</p><dl class="todo"><dt><b><a class="el" href="todo.html#_todo000001">Todo:</a></b></dt><dd>change it to enum </dd></dl>
+<p>Error code. <a class="el" href="group___t_r_a_j_e_c_t_o_r_y___g_e_n_e_r_a_t_o_r.html#ga12ca352578dc8a808b29be1a1e5fdb0a">lmc_tg_update_error_code_t</a> </p>
 
-<p>Definition at line <a class="el" href="lmc__tg_8h_source.html#l00072">72</a> of file <a class="el" href="lmc__tg_8h_source.html">lmc_tg.h</a>.</p>
+<p>Definition at line <a class="el" href="lmc__tg_8h_source.html#l00084">84</a> of file <a class="el" href="lmc__tg_8h_source.html">lmc_tg.h</a>.</p>
 
 </div>
 </div>
@@ -137,10 +137,10 @@ Data Fields</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Update state </p>
+<p>Update state, if the state is <a class="el" href="group___t_r_a_j_e_c_t_o_r_y___g_e_n_e_r_a_t_o_r.html#ggacae7fe8e813fa89279f555ecd382ac4ca39c8eba18bfe6d2014e220738db7031b">TGS_ERROR</a>, then check the <a class="el" href="structlmc__tg__update__ret.html#a47fd5e7b99d3c88aa003f962fd9cc52e">error_code</a> for error type. </p>
 <dl><dt><b>Examples: </b></dt><dd><a class="el" href="example_tg_8cc-example.html#a34">example_tg.cc</a>.</dd>
 </dl>
-<p>Definition at line <a class="el" href="lmc__tg_8h_source.html#l00071">71</a> of file <a class="el" href="lmc__tg_8h_source.html">lmc_tg.h</a>.</p>
+<p>Definition at line <a class="el" href="lmc__tg_8h_source.html#l00083">83</a> of file <a class="el" href="lmc__tg_8h_source.html">lmc_tg.h</a>.</p>
 
 </div>
 </div>

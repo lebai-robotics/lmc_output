@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['y',['y',['../structlmc__translation.html#ab927965981178aa1fba979a37168db2a',1,'lmc_translation::y()'],['../structlmc__rpy.html#ab927965981178aa1fba979a37168db2a',1,'lmc_rpy::y()'],['../structlmc__quaternion.html#ab927965981178aa1fba979a37168db2a',1,'lmc_quaternion::y()']]]
+  ['x',['x',['../structlmc__translation.html#af88b946fb90d5f08b5fb740c70e98c10',1,'lmc_translation::x()'],['../structlmc__quaternion.html#af88b946fb90d5f08b5fb740c70e98c10',1,'lmc_quaternion::x()']]]
 ];

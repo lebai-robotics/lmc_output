@@ -25,7 +25,7 @@
   <td id="projectlogo"><img alt="Logo" src="logo.png"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">lebai-motion-control
-   &#160;<span id="projectnumber">2.2.8</span>
+   &#160;<span id="projectnumber">2.2.9</span>
    </div>
    <div id="projectbrief">lebai motion control C interface</div>
   </td>
@@ -125,6 +125,9 @@ Typedefs</h2></td></tr>
 <tr class="memitem:gaf1f592b5c04ccffcae99e111e54ccfd9"><td class="memItemLeft" align="right" valign="top">typedef enum <a class="el" href="group___t_r_a_j_e_c_t_o_r_y___g_e_n_e_r_a_t_o_r.html#ga1765871cf2aabd5603dbd71ec99f23c2">lmc_tg_buffer_ret</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___t_r_a_j_e_c_t_o_r_y___g_e_n_e_r_a_t_o_r.html#gaf1f592b5c04ccffcae99e111e54ccfd9">lmc_tg_buffer_ret_t</a></td></tr>
 <tr class="memdesc:gaf1f592b5c04ccffcae99e111e54ccfd9"><td class="mdescLeft">&#160;</td><td class="mdescRight">trjecotry generator buffer xxx function ret  <a href="#gaf1f592b5c04ccffcae99e111e54ccfd9">More...</a><br /></td></tr>
 <tr class="separator:gaf1f592b5c04ccffcae99e111e54ccfd9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga12ca352578dc8a808b29be1a1e5fdb0a"><td class="memItemLeft" align="right" valign="top">typedef enum <a class="el" href="group___t_r_a_j_e_c_t_o_r_y___g_e_n_e_r_a_t_o_r.html#gac70fe7cd49c2a30feed66398743cb701">lmc_tg_update_error_code</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___t_r_a_j_e_c_t_o_r_y___g_e_n_e_r_a_t_o_r.html#ga12ca352578dc8a808b29be1a1e5fdb0a">lmc_tg_update_error_code_t</a></td></tr>
+<tr class="memdesc:ga12ca352578dc8a808b29be1a1e5fdb0a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Trjecotry generator update error code, when error happens, check the type for error.  <a href="#ga12ca352578dc8a808b29be1a1e5fdb0a">More...</a><br /></td></tr>
+<tr class="separator:ga12ca352578dc8a808b29be1a1e5fdb0a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga2d435292cba1f18d42eb87e51267fcbe"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="structlmc__tg__update__ret.html">lmc_tg_update_ret</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___t_r_a_j_e_c_t_o_r_y___g_e_n_e_r_a_t_o_r.html#ga2d435292cba1f18d42eb87e51267fcbe">lmc_tg_update_ret_t</a></td></tr>
 <tr class="memdesc:ga2d435292cba1f18d42eb87e51267fcbe"><td class="mdescLeft">&#160;</td><td class="mdescRight">Trjecotry generator update ret value.  <a href="#ga2d435292cba1f18d42eb87e51267fcbe">More...</a><br /></td></tr>
 <tr class="separator:ga2d435292cba1f18d42eb87e51267fcbe"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -179,6 +182,17 @@ Enumerations</h2></td></tr>
  }<tr class="memdesc:ga1765871cf2aabd5603dbd71ec99f23c2"><td class="mdescLeft">&#160;</td><td class="mdescRight">trjecotry generator buffer xxx function ret  <a href="group___t_r_a_j_e_c_t_o_r_y___g_e_n_e_r_a_t_o_r.html#ga1765871cf2aabd5603dbd71ec99f23c2">More...</a><br /></td></tr>
 </td></tr>
 <tr class="separator:ga1765871cf2aabd5603dbd71ec99f23c2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gac70fe7cd49c2a30feed66398743cb701"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___t_r_a_j_e_c_t_o_r_y___g_e_n_e_r_a_t_o_r.html#gac70fe7cd49c2a30feed66398743cb701">lmc_tg_update_error_code</a> { <br />
+&#160;&#160;<a class="el" href="group___t_r_a_j_e_c_t_o_r_y___g_e_n_e_r_a_t_o_r.html#ggac70fe7cd49c2a30feed66398743cb701a3adcc3b311099d95615ccaf3911022e4">UPDATE_RET_IK_ERROR</a>, 
+<a class="el" href="group___t_r_a_j_e_c_t_o_r_y___g_e_n_e_r_a_t_o_r.html#ggac70fe7cd49c2a30feed66398743cb701a5fbaccac5bfd27c8fcea9d62b7ba712f">UPDATE_RET_SINGULARITY_ERROR</a>, 
+<a class="el" href="group___t_r_a_j_e_c_t_o_r_y___g_e_n_e_r_a_t_o_r.html#ggac70fe7cd49c2a30feed66398743cb701a6ba8293cae4a57e9c171efb39102a9e5">UPDATE_RET_JOINT_POS_LOGIC_ERROR</a>, 
+<a class="el" href="group___t_r_a_j_e_c_t_o_r_y___g_e_n_e_r_a_t_o_r.html#ggac70fe7cd49c2a30feed66398743cb701aa1d60ab55e72ff1c4dd3f0485cba9803">UPDATE_RET_NO_ERROR</a>, 
+<br />
+&#160;&#160;<a class="el" href="group___t_r_a_j_e_c_t_o_r_y___g_e_n_e_r_a_t_o_r.html#ggac70fe7cd49c2a30feed66398743cb701a0a40afb87ea9b85a78fac20a04765b57">UPDATE_INTERNAL_ERROR</a>
+<br />
+ }<tr class="memdesc:gac70fe7cd49c2a30feed66398743cb701"><td class="mdescLeft">&#160;</td><td class="mdescRight">Trjecotry generator update error code, when error happens, check the type for error.  <a href="group___t_r_a_j_e_c_t_o_r_y___g_e_n_e_r_a_t_o_r.html#gac70fe7cd49c2a30feed66398743cb701">More...</a><br /></td></tr>
+</td></tr>
+<tr class="separator:gac70fe7cd49c2a30feed66398743cb701"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga6ed7bdb146caeb1735a04515321e56f5"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___t_r_a_j_e_c_t_o_r_y___g_e_n_e_r_a_t_o_r.html#ga6ed7bdb146caeb1735a04515321e56f5">lmc_tg_group_type</a> { <a class="el" href="group___t_r_a_j_e_c_t_o_r_y___g_e_n_e_r_a_t_o_r.html#gga6ed7bdb146caeb1735a04515321e56f5ac1e0a2410a3e55b9cd5fa1a1d86f92c2">COMMON</a>, 
 <a class="el" href="group___t_r_a_j_e_c_t_o_r_y___g_e_n_e_r_a_t_o_r.html#gga6ed7bdb146caeb1735a04515321e56f5a16bfa797cbd89f5f02ddcee37f9c3e9b">PIECEWISE</a>
  }<tr class="memdesc:ga6ed7bdb146caeb1735a04515321e56f5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Trjecotry generator group type.  <a href="group___t_r_a_j_e_c_t_o_r_y___g_e_n_e_r_a_t_o_r.html#ga6ed7bdb146caeb1735a04515321e56f5">More...</a><br /></td></tr>
@@ -420,6 +434,21 @@ Functions</h2></td></tr>
 
 </div>
 </div>
+<a class="anchor" id="ga12ca352578dc8a808b29be1a1e5fdb0a"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef enum <a class="el" href="group___t_r_a_j_e_c_t_o_r_y___g_e_n_e_r_a_t_o_r.html#gac70fe7cd49c2a30feed66398743cb701">lmc_tg_update_error_code</a>  <a class="el" href="group___t_r_a_j_e_c_t_o_r_y___g_e_n_e_r_a_t_o_r.html#ga12ca352578dc8a808b29be1a1e5fdb0a">lmc_tg_update_error_code_t</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Trjecotry generator update error code, when error happens, check the type for error. </p>
+<dl class="section note"><dt>Note</dt><dd></dd></dl>
+
+</div>
+</div>
 <a class="anchor" id="ga2d435292cba1f18d42eb87e51267fcbe"></a>
 <div class="memitem">
 <div class="memproto">
@@ -468,7 +497,7 @@ Functions</h2></td></tr>
 <p>Buffer success </p>
 </td></tr>
 <tr><td class="fieldname"><a class="anchor" id="gga1765871cf2aabd5603dbd71ec99f23c2a287e965e41bcf25c0eba89277bd491c2"></a>BUFFER_RET_FULL&#160;</td><td class="fielddoc">
-<p>Buffer is full can't add new ones </p>
+<p>Buffer is full can't add new trajecotory </p>
 </td></tr>
 <tr><td class="fieldname"><a class="anchor" id="gga1765871cf2aabd5603dbd71ec99f23c2a9123be4b1451089022d6001349601253"></a>BUFFER_RET_IGNORE&#160;</td><td class="fielddoc">
 <p>Buffer ignored mostly because zero length trajectory </p>
@@ -530,7 +559,7 @@ Functions</h2></td></tr>
 </td></tr>
 </table>
 
-<p>Definition at line <a class="el" href="lmc__tg_8h_source.html#l00080">80</a> of file <a class="el" href="lmc__tg_8h_source.html">lmc_tg.h</a>.</p>
+<p>Definition at line <a class="el" href="lmc__tg_8h_source.html#l00092">92</a> of file <a class="el" href="lmc__tg_8h_source.html">lmc_tg.h</a>.</p>
 
 </div>
 </div>
@@ -555,7 +584,41 @@ Functions</h2></td></tr>
 </td></tr>
 </table>
 
-<p>Definition at line <a class="el" href="lmc__tg_8h_source.html#l00089">89</a> of file <a class="el" href="lmc__tg_8h_source.html">lmc_tg.h</a>.</p>
+<p>Definition at line <a class="el" href="lmc__tg_8h_source.html#l00101">101</a> of file <a class="el" href="lmc__tg_8h_source.html">lmc_tg.h</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="gac70fe7cd49c2a30feed66398743cb701"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum <a class="el" href="group___t_r_a_j_e_c_t_o_r_y___g_e_n_e_r_a_t_o_r.html#gac70fe7cd49c2a30feed66398743cb701">lmc_tg_update_error_code</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Trjecotry generator update error code, when error happens, check the type for error. </p>
+<dl class="section note"><dt>Note</dt><dd></dd></dl>
+<table class="fieldtable">
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a class="anchor" id="ggac70fe7cd49c2a30feed66398743cb701a3adcc3b311099d95615ccaf3911022e4"></a>UPDATE_RET_IK_ERROR&#160;</td><td class="fielddoc">
+<p>Can't compute inverse kinematic for trajecotory way point </p>
+</td></tr>
+<tr><td class="fieldname"><a class="anchor" id="ggac70fe7cd49c2a30feed66398743cb701a5fbaccac5bfd27c8fcea9d62b7ba712f"></a>UPDATE_RET_SINGULARITY_ERROR&#160;</td><td class="fielddoc">
+<p>Robot is in a singularity state. </p>
+</td></tr>
+<tr><td class="fieldname"><a class="anchor" id="ggac70fe7cd49c2a30feed66398743cb701a6ba8293cae4a57e9c171efb39102a9e5"></a>UPDATE_RET_JOINT_POS_LOGIC_ERROR&#160;</td><td class="fielddoc">
+<p>We check for joint start positions for every trajectory, If we face a position Inconsistencies, we get this logic error. </p>
+</td></tr>
+<tr><td class="fieldname"><a class="anchor" id="ggac70fe7cd49c2a30feed66398743cb701aa1d60ab55e72ff1c4dd3f0485cba9803"></a>UPDATE_RET_NO_ERROR&#160;</td><td class="fielddoc">
+<p>No error happen. </p>
+</td></tr>
+<tr><td class="fieldname"><a class="anchor" id="ggac70fe7cd49c2a30feed66398743cb701a0a40afb87ea9b85a78fac20a04765b57"></a>UPDATE_INTERNAL_ERROR&#160;</td><td class="fielddoc">
+<p>Usually should not happen. </p>
+</td></tr>
+</table>
+
+<p>Definition at line <a class="el" href="lmc__tg_8h_source.html#l00070">70</a> of file <a class="el" href="lmc__tg_8h_source.html">lmc_tg.h</a>.</p>
 
 </div>
 </div>
@@ -1665,7 +1728,7 @@ lmc_tg_buffer_speed_joint(tg, id, &amp;t, &amp;param);
 </div><div class="memdoc">
 
 <p>Core calculation function of trajectory generator, always call it in realtime loop,. </p>
-<dl class="section note"><dt>Note</dt><dd></dd></dl>
+<dl class="section note"><dt>Note</dt><dd>if the state in <a class="el" href="group___t_r_a_j_e_c_t_o_r_y___g_e_n_e_r_a_t_o_r.html#ga2d435292cba1f18d42eb87e51267fcbe">lmc_tg_update_ret_t</a> is <a class="el" href="group___t_r_a_j_e_c_t_o_r_y___g_e_n_e_r_a_t_o_r.html#ggacae7fe8e813fa89279f555ecd382ac4ca39c8eba18bfe6d2014e220738db7031b">TGS_ERROR</a>, then check the error_code <a class="el" href="group___t_r_a_j_e_c_t_o_r_y___g_e_n_e_r_a_t_o_r.html#ga12ca352578dc8a808b29be1a1e5fdb0a">lmc_tg_update_error_code_t</a> for error type. </dd></dl>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramdir">[in]</td><td class="paramname">tg</td><td>trajectory generator data. </td></tr>

@@ -25,7 +25,7 @@
   <td id="projectlogo"><img alt="Logo" src="logo.png"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">lebai-motion-control
-   &#160;<span id="projectnumber">2.2.8</span>
+   &#160;<span id="projectnumber">2.2.9</span>
    </div>
    <div id="projectbrief">lebai motion control C interface</div>
   </td>
@@ -107,6 +107,9 @@ Functions</h2></td></tr>
 <tr class="memitem:ga563a6cd680d2ac3ca22de260536d61e6"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___k_i_n_e_m_a_t_i_c_s.html#ga563a6cd680d2ac3ca22de260536d61e6">lmc_kin_manipulation_measure</a> (<a class="el" href="group___r_o_b_o_t___m_o_d_e_l.html#ga88801e600508c29bfd792993c252af02">lmc_robot_model_t</a> *const robot_model, double const *const joint_pos)</td></tr>
 <tr class="memdesc:ga563a6cd680d2ac3ca22de260536d61e6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Compute manipulation measure. This function compute manipulation measure data, which indicate that the robot(manipulator) is in singularity. When the measure is less than 0.001, usually means the robot lose some ability in moving to certain direction.  <a href="#ga563a6cd680d2ac3ca22de260536d61e6">More...</a><br /></td></tr>
 <tr class="separator:ga563a6cd680d2ac3ca22de260536d61e6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga64bd4d2d77518399c2d5833d1b74ea8e"><td class="memItemLeft" align="right" valign="top">int16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___k_i_n_e_m_a_t_i_c_s.html#ga64bd4d2d77518399c2d5833d1b74ea8e">lmc_kin_get_singularity_type</a> (<a class="el" href="group___r_o_b_o_t___m_o_d_e_l.html#ga88801e600508c29bfd792993c252af02">lmc_robot_model_t</a> *const robot_model, double const *const joint_pos)</td></tr>
+<tr class="memdesc:ga64bd4d2d77518399c2d5833d1b74ea8e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Compute singularity type data.  <a href="#ga64bd4d2d77518399c2d5833d1b74ea8e">More...</a><br /></td></tr>
+<tr class="separator:ga64bd4d2d77518399c2d5833d1b74ea8e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:gad41c484245b0996f75c3a399551cf4f6"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___k_i_n_e_m_a_t_i_c_s.html#gad41c484245b0996f75c3a399551cf4f6">lmc_kin_cal_translation</a> (<a class="el" href="group___m_a_t_h.html#ga43c94b4eb1f98950076ef8ad6465c8f7">lmc_transform_t</a> const *const all_cart_pose, size_t size, float tol, <a class="el" href="group___m_a_t_h.html#ga8374faadca414a54856e2bc3e33ff9e4">lmc_translation_t</a> *const t)</td></tr>
 <tr class="memdesc:gad41c484245b0996f75c3a399551cf4f6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Compute a transform from multi points(transform pose).  <a href="#gad41c484245b0996f75c3a399551cf4f6">More...</a><br /></td></tr>
 <tr class="separator:gad41c484245b0996f75c3a399551cf4f6"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -314,6 +317,61 @@ Functions</h2></td></tr>
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>Return 0 on success, otherwise failure. </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="ga64bd4d2d77518399c2d5833d1b74ea8e"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int16_t lmc_kin_get_singularity_type </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="group___r_o_b_o_t___m_o_d_e_l.html#ga88801e600508c29bfd792993c252af02">lmc_robot_model_t</a> *const&#160;</td>
+          <td class="paramname"><em>robot_model</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double const *const&#160;</td>
+          <td class="paramname"><em>joint_pos</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Compute singularity type data. </p>
+<dl class="section note"><dt>Note</dt><dd></dd></dl>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">robot_model</td><td>Robot model data for kinematic computing </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">joint_pos</td><td>Joint position array. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>Return singulartity type data. The data is arranged by bitset:</dd></dl>
+<table class="doxtable">
+<tr>
+<th>Bit 16 </th><th>... </th><th>Bit 3 </th><th>Bit 2 </th><th>Bit 1  </th></tr>
+<tr>
+<td>NA </td><td>NA </td><td>Wrist Alignment Singularity </td><td>Inner Workspace Limit </td><td>Outer Worksapce Limit </td></tr>
+</table>
+<p><b>Outer Worksapce Limit</b>: This means the robot second link and third link are aligned, usually means the robot is almost reach its outside limitation. </p><div class="image">
+<img src="outer_workspace_limit.png" alt="outer_workspace_limit.png"/>
+<div class="caption">
+Outer Workspace Limit</div></div>
+<p> <b>Inner Worksapce Limit</b>: This means the robot's flange end is close to the column directly above and below the robot base. </p><div class="image">
+<img src="inner_workspace_limit.png" alt="inner_workspace_limit.png"/>
+<div class="caption">
+Inner Workspace Limit</div></div>
+<p> <b>Wrist Alignment Singularity</b>: This means the robot's shoulder, elbow and wrist 1 joints all all align the movement of wrist joint 2. </p><div class="image">
+<img src="wrist_alignment_singularity.png" alt="wrist_alignment_singularity.png"/>
+<div class="caption">
+Wrist Alignment Singularity</div></div>
 
 </div>
 </div>

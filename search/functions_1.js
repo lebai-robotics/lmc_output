@@ -45,6 +45,7 @@ var searchData=
   ['lmc_5fkin_5fcal_5ftranslation',['lmc_kin_cal_translation',['../group___k_i_n_e_m_a_t_i_c_s.html#gad41c484245b0996f75c3a399551cf4f6',1,'lmc_kin.h']]],
   ['lmc_5fkin_5ffk_5fpose',['lmc_kin_fk_pose',['../group___k_i_n_e_m_a_t_i_c_s.html#gaba99e95b10ad6abb5a214f3907de95a8',1,'lmc_kin.h']]],
   ['lmc_5fkin_5ffk_5fpose_5fby_5findex',['lmc_kin_fk_pose_by_index',['../group___k_i_n_e_m_a_t_i_c_s.html#ga4f2821845393841dda8e85aa7c5890e9',1,'lmc_kin.h']]],
+  ['lmc_5fkin_5fget_5fsingularity_5ftype',['lmc_kin_get_singularity_type',['../group___k_i_n_e_m_a_t_i_c_s.html#ga64bd4d2d77518399c2d5833d1b74ea8e',1,'lmc_kin.h']]],
   ['lmc_5fkin_5fik_5fpose',['lmc_kin_ik_pose',['../group___k_i_n_e_m_a_t_i_c_s.html#ga50c51125a3fb8d0286ee2f8cc48f3cfe',1,'lmc_kin.h']]],
   ['lmc_5fkin_5fmanipulation_5fmeasure',['lmc_kin_manipulation_measure',['../group___k_i_n_e_m_a_t_i_c_s.html#ga563a6cd680d2ac3ca22de260536d61e6',1,'lmc_kin.h']]],
   ['lmc_5fquaternion_5fto_5feuler',['lmc_quaternion_to_euler',['../group___m_a_t_h.html#ga2cc9d579698fc25d021ca99bde8e90f0',1,'lmc_math.h']]],

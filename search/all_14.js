@@ -1,4 +1,5 @@
 var searchData=
 [
-  ['x',['x',['../structlmc__translation.html#af88b946fb90d5f08b5fb740c70e98c10',1,'lmc_translation::x()'],['../structlmc__quaternion.html#af88b946fb90d5f08b5fb740c70e98c10',1,'lmc_quaternion::x()']]]
+  ['w',['w',['../structlmc__quaternion.html#afb3248bab1c7ee0ad97e9d4c275b4c67',1,'lmc_quaternion']]],
+  ['wrench',['wrench',['../structlmc__controller__cartesian__admittance__config.html#a3085463facb105ed1bae9ac386f0304d',1,'lmc_controller_cartesian_admittance_config']]]
 ];
