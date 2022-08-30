@@ -4,7 +4,7 @@
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.11"/>
-<title>lebai-motion-control: lmc_group_joint_info Struct Reference</title>
+<title>lebai-motion-control: lmc_tg_toward_param Struct Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -90,61 +90,60 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
   <div class="summary">
 <a href="#pub-attribs">Data Fields</a>  </div>
   <div class="headertitle">
-<div class="title">lmc_group_joint_info Struct Reference<div class="ingroups"><a class="el" href="group___g_r_o_u_p.html">group</a></div></div>  </div>
+<div class="title">lmc_tg_toward_param Struct Reference<div class="ingroups"><a class="el" href="group___t_r_a_j_e_c_t_o_r_y___g_e_n_e_r_a_t_o_r.html">trajectory_generator</a></div></div>  </div>
 </div><!--header-->
 <div class="contents">
 
-<p>Group joint information.  
- <a href="structlmc__group__joint__info.html#details">More...</a></p>
+<p>Trjecotry generator toward parameter.  
+ <a href="structlmc__tg__toward__param.html#details">More...</a></p>
 
-<p><code>#include &lt;<a class="el" href="lmc__group__config_8h_source.html">lmc_group_config.h</a>&gt;</code></p>
+<p><code>#include &lt;<a class="el" href="lmc__tg_8h_source.html">lmc_tg.h</a>&gt;</code></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
 Data Fields</h2></td></tr>
-<tr class="memitem:a1d15f198542ff58ffd6ada3ea481db1b"><td class="memItemLeft" align="right" valign="top">size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structlmc__group__joint__info.html#a1d15f198542ff58ffd6ada3ea481db1b">joint_dof</a></td></tr>
-<tr class="separator:a1d15f198542ff58ffd6ada3ea481db1b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9ed996090785e47308b21d2139eae198"><td class="memItemLeft" align="right" valign="top">char&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structlmc__group__joint__info.html#a9ed996090785e47308b21d2139eae198">joint_names</a> [<a class="el" href="lmc__config_8h.html#a2fca85b440f6d9f1f2a6ebd05e685a87">LMC_MAX_JOINT_NUM</a>][<a class="el" href="lmc__config_8h.html#a9fe5842693e9e20453ec5f5aede258e9">LMC_MAX_STRING_LEN</a>]</td></tr>
-<tr class="separator:a9ed996090785e47308b21d2139eae198"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3b90d5a73541ab9402511d87bed076ef"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structlmc__tg__toward__param.html#a3b90d5a73541ab9402511d87bed076ef">v</a></td></tr>
+<tr class="separator:a3b90d5a73541ab9402511d87bed076ef"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3f5829fb406b1eb98443802e65c97fc5"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structlmc__tg__toward__param.html#a3f5829fb406b1eb98443802e65c97fc5">acc</a></td></tr>
+<tr class="separator:a3f5829fb406b1eb98443802e65c97fc5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p>Group joint information. </p>
-<dl class="section note"><dt>Note</dt><dd></dd></dl>
-<dl><dt><b>Examples: </b></dt><dd><a class="el" href="example_urdf_group_8cc-example.html#_a3">example_urdf_group.cc</a>.</dd>
-</dl>
-<p>Definition at line <a class="el" href="lmc__group__config_8h_source.html#l00029">29</a> of file <a class="el" href="lmc__group__config_8h_source.html">lmc_group_config.h</a>.</p>
+<div class="textblock"><p>Trjecotry generator toward parameter. </p>
+<dl class="section note"><dt>Note</dt><dd>Toward joint use this parameter data structure. </dd></dl>
+
+<p>Definition at line <a class="el" href="lmc__tg_8h_source.html#l00147">147</a> of file <a class="el" href="lmc__tg_8h_source.html">lmc_tg.h</a>.</p>
 </div><h2 class="groupheader">Field Documentation</h2>
-<a class="anchor" id="a1d15f198542ff58ffd6ada3ea481db1b"></a>
+<a class="anchor" id="a3f5829fb406b1eb98443802e65c97fc5"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">size_t joint_dof</td>
+          <td class="memname">double acc</td>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Total joint DOF </p>
+<p>Acceleration parameter </p>
 
-<p>Definition at line <a class="el" href="lmc__group__config_8h_source.html#l00030">30</a> of file <a class="el" href="lmc__group__config_8h_source.html">lmc_group_config.h</a>.</p>
+<p>Definition at line <a class="el" href="lmc__tg_8h_source.html#l00149">149</a> of file <a class="el" href="lmc__tg_8h_source.html">lmc_tg.h</a>.</p>
 
 </div>
 </div>
-<a class="anchor" id="a9ed996090785e47308b21d2139eae198"></a>
+<a class="anchor" id="a3b90d5a73541ab9402511d87bed076ef"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">char joint_names[<a class="el" href="lmc__config_8h.html#a2fca85b440f6d9f1f2a6ebd05e685a87">LMC_MAX_JOINT_NUM</a>][<a class="el" href="lmc__config_8h.html#a9fe5842693e9e20453ec5f5aede258e9">LMC_MAX_STRING_LEN</a>]</td>
+          <td class="memname">double v</td>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>joint names array, currently maximum to 30 joints </p>
+<p>&lt; Velocity parameter </p>
 
-<p>Definition at line <a class="el" href="lmc__group__config_8h_source.html#l00031">31</a> of file <a class="el" href="lmc__group__config_8h_source.html">lmc_group_config.h</a>.</p>
+<p>Definition at line <a class="el" href="lmc__tg_8h_source.html#l00148">148</a> of file <a class="el" href="lmc__tg_8h_source.html">lmc_tg.h</a>.</p>
 
 </div>
 </div>
 <hr/>The documentation for this struct was generated from the following file:<ul>
-<li><a class="el" href="lmc__group__config_8h_source.html">lmc_group_config.h</a></li>
+<li><a class="el" href="lmc__tg_8h_source.html">lmc_tg.h</a></li>
 </ul>
 </div><!-- contents -->
 <!-- start footer part -->

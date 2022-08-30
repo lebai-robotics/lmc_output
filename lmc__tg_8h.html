@@ -25,7 +25,7 @@
   <td id="projectlogo"><img alt="Logo" src="logo.png"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">lebai-motion-control
-   &#160;<span id="projectnumber">2.2.10</span>
+   &#160;<span id="projectnumber">2.2.11</span>
    </div>
    <div id="projectbrief">lebai motion control C interface</div>
   </td>
@@ -144,6 +144,9 @@ Data Structures</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structlmc__tg__speed__param.html">lmc_tg_speed_param</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Trjecotry generator speed parameter.  <a href="structlmc__tg__speed__param.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structlmc__tg__toward__param.html">lmc_tg_toward_param</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Trjecotry generator toward parameter.  <a href="structlmc__tg__toward__param.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="typedef-members"></a>
 Typedefs</h2></td></tr>
@@ -177,6 +180,9 @@ Typedefs</h2></td></tr>
 <tr class="memitem:ga5dd28768b995ad3663e03e1ced5ffe59"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="structlmc__tg__speed__param.html">lmc_tg_speed_param</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___t_r_a_j_e_c_t_o_r_y___g_e_n_e_r_a_t_o_r.html#ga5dd28768b995ad3663e03e1ced5ffe59">lmc_tg_speed_param_t</a></td></tr>
 <tr class="memdesc:ga5dd28768b995ad3663e03e1ced5ffe59"><td class="mdescLeft">&#160;</td><td class="mdescRight">Trjecotry generator speed parameter.  <a href="group___t_r_a_j_e_c_t_o_r_y___g_e_n_e_r_a_t_o_r.html#ga5dd28768b995ad3663e03e1ced5ffe59">More...</a><br /></td></tr>
 <tr class="separator:ga5dd28768b995ad3663e03e1ced5ffe59"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga2aee6859a5970f69f2a9befdcee4774b"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="structlmc__tg__toward__param.html">lmc_tg_toward_param</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___t_r_a_j_e_c_t_o_r_y___g_e_n_e_r_a_t_o_r.html#ga2aee6859a5970f69f2a9befdcee4774b">lmc_tg_toward_param_t</a></td></tr>
+<tr class="memdesc:ga2aee6859a5970f69f2a9befdcee4774b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Trjecotry generator toward parameter.  <a href="group___t_r_a_j_e_c_t_o_r_y___g_e_n_e_r_a_t_o_r.html#ga2aee6859a5970f69f2a9befdcee4774b">More...</a><br /></td></tr>
+<tr class="separator:ga2aee6859a5970f69f2a9befdcee4774b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="enum-members"></a>
 Enumerations</h2></td></tr>
@@ -219,7 +225,8 @@ Enumerations</h2></td></tr>
 </td></tr>
 <tr class="separator:gac70fe7cd49c2a30feed66398743cb701"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga6ed7bdb146caeb1735a04515321e56f5"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___t_r_a_j_e_c_t_o_r_y___g_e_n_e_r_a_t_o_r.html#ga6ed7bdb146caeb1735a04515321e56f5">lmc_tg_group_type</a> { <a class="el" href="group___t_r_a_j_e_c_t_o_r_y___g_e_n_e_r_a_t_o_r.html#gga6ed7bdb146caeb1735a04515321e56f5ac1e0a2410a3e55b9cd5fa1a1d86f92c2">COMMON</a>, 
-<a class="el" href="group___t_r_a_j_e_c_t_o_r_y___g_e_n_e_r_a_t_o_r.html#gga6ed7bdb146caeb1735a04515321e56f5a16bfa797cbd89f5f02ddcee37f9c3e9b">PIECEWISE</a>
+<a class="el" href="group___t_r_a_j_e_c_t_o_r_y___g_e_n_e_r_a_t_o_r.html#gga6ed7bdb146caeb1735a04515321e56f5a16bfa797cbd89f5f02ddcee37f9c3e9b">PIECEWISE</a>, 
+<a class="el" href="group___t_r_a_j_e_c_t_o_r_y___g_e_n_e_r_a_t_o_r.html#gga6ed7bdb146caeb1735a04515321e56f5a17348c5246a9e7112e28f31ae6ffae58">TOWARD</a>
  }<tr class="memdesc:ga6ed7bdb146caeb1735a04515321e56f5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Trjecotry generator group type.  <a href="group___t_r_a_j_e_c_t_o_r_y___g_e_n_e_r_a_t_o_r.html#ga6ed7bdb146caeb1735a04515321e56f5">More...</a><br /></td></tr>
 </td></tr>
 <tr class="separator:ga6ed7bdb146caeb1735a04515321e56f5"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -250,7 +257,7 @@ Functions</h2></td></tr>
 <tr class="memdesc:gaf03551a5f860ca8f0c1ed82af187bef9"><td class="mdescLeft">&#160;</td><td class="mdescRight">This function set current joint anchor point of trajectory generator caculation. It must be called when trajectory is in idle.If it's not in idle state, theis function has no effect.  <a href="group___t_r_a_j_e_c_t_o_r_y___g_e_n_e_r_a_t_o_r.html#gaf03551a5f860ca8f0c1ed82af187bef9">More...</a><br /></td></tr>
 <tr class="separator:gaf03551a5f860ca8f0c1ed82af187bef9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga54c2d83cfc5d73b69634a03410c1f178"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___t_r_a_j_e_c_t_o_r_y___g_e_n_e_r_a_t_o_r.html#ga54c2d83cfc5d73b69634a03410c1f178">lmc_tg_set_group</a> (<a class="el" href="group___t_r_a_j_e_c_t_o_r_y___g_e_n_e_r_a_t_o_r.html#ga315fdb9ab1a67d40e74660eb4045e25a">lmc_tg_t</a> *const tg, <a class="el" href="group___t_r_a_j_e_c_t_o_r_y___g_e_n_e_r_a_t_o_r.html#gaf26ed6fb5eb74b714e2ffed3eedb71f2">lmc_tg_group_type_t</a> group)</td></tr>
-<tr class="memdesc:ga54c2d83cfc5d73b69634a03410c1f178"><td class="mdescLeft">&#160;</td><td class="mdescRight">This function set group, group change must be done by manual. The trajectory type under current group can be buffered. If type mismatch, buffer failed. One should Only call this function in idle state.  <a href="group___t_r_a_j_e_c_t_o_r_y___g_e_n_e_r_a_t_o_r.html#ga54c2d83cfc5d73b69634a03410c1f178">More...</a><br /></td></tr>
+<tr class="memdesc:ga54c2d83cfc5d73b69634a03410c1f178"><td class="mdescLeft">&#160;</td><td class="mdescRight">This function set group, group change must be done by manual. The trajectory type under current group can be buffered(or set). If type mismatch, buffer failed. One should only call the function when trajecoty generator is in idle state.  <a href="group___t_r_a_j_e_c_t_o_r_y___g_e_n_e_r_a_t_o_r.html#ga54c2d83cfc5d73b69634a03410c1f178">More...</a><br /></td></tr>
 <tr class="separator:ga54c2d83cfc5d73b69634a03410c1f178"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:gadf1c165674f505282f8cc857d0e7238f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group___t_r_a_j_e_c_t_o_r_y___g_e_n_e_r_a_t_o_r.html#gaf26ed6fb5eb74b714e2ffed3eedb71f2">lmc_tg_group_type_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___t_r_a_j_e_c_t_o_r_y___g_e_n_e_r_a_t_o_r.html#gadf1c165674f505282f8cc857d0e7238f">lmc_tg_get_group</a> (<a class="el" href="group___t_r_a_j_e_c_t_o_r_y___g_e_n_e_r_a_t_o_r.html#ga315fdb9ab1a67d40e74660eb4045e25a">lmc_tg_t</a> *const tg)</td></tr>
 <tr class="memdesc:gadf1c165674f505282f8cc857d0e7238f"><td class="mdescLeft">&#160;</td><td class="mdescRight">This function get current group.  <a href="group___t_r_a_j_e_c_t_o_r_y___g_e_n_e_r_a_t_o_r.html#gadf1c165674f505282f8cc857d0e7238f">More...</a><br /></td></tr>
@@ -294,6 +301,9 @@ Functions</h2></td></tr>
 <tr class="memitem:ga7a9386d8f7475ce8155fbb352ce44704"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group___t_r_a_j_e_c_t_o_r_y___g_e_n_e_r_a_t_o_r.html#gaf1f592b5c04ccffcae99e111e54ccfd9">lmc_tg_buffer_ret_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___t_r_a_j_e_c_t_o_r_y___g_e_n_e_r_a_t_o_r.html#ga7a9386d8f7475ce8155fbb352ce44704">lmc_tg_buffer_move_joint_pvat</a> (<a class="el" href="group___t_r_a_j_e_c_t_o_r_y___g_e_n_e_r_a_t_o_r.html#ga315fdb9ab1a67d40e74660eb4045e25a">lmc_tg_t</a> *const tg, int id, double duration, <a class="el" href="lmc__joint_8h.html#a997f3c13282a8cf93542e60677852155">lmc_joint_cmd_t</a> const *const joint_data)</td></tr>
 <tr class="memdesc:ga7a9386d8f7475ce8155fbb352ce44704"><td class="mdescLeft">&#160;</td><td class="mdescRight">Try to add a joint move pvat trajectory.  <a href="group___t_r_a_j_e_c_t_o_r_y___g_e_n_e_r_a_t_o_r.html#ga7a9386d8f7475ce8155fbb352ce44704">More...</a><br /></td></tr>
 <tr class="separator:ga7a9386d8f7475ce8155fbb352ce44704"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga264a98c90af2ffa231a239af738e896e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group___t_r_a_j_e_c_t_o_r_y___g_e_n_e_r_a_t_o_r.html#gaf1f592b5c04ccffcae99e111e54ccfd9">lmc_tg_buffer_ret_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___t_r_a_j_e_c_t_o_r_y___g_e_n_e_r_a_t_o_r.html#ga264a98c90af2ffa231a239af738e896e">lmc_tg_set_toward_joint</a> (<a class="el" href="group___t_r_a_j_e_c_t_o_r_y___g_e_n_e_r_a_t_o_r.html#ga315fdb9ab1a67d40e74660eb4045e25a">lmc_tg_t</a> *const tg, int id, double const *const target, <a class="el" href="group___t_r_a_j_e_c_t_o_r_y___g_e_n_e_r_a_t_o_r.html#ga2aee6859a5970f69f2a9befdcee4774b">lmc_tg_toward_param_t</a> const *const param)</td></tr>
+<tr class="memdesc:ga264a98c90af2ffa231a239af738e896e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Try to set new toward joint target.  <a href="group___t_r_a_j_e_c_t_o_r_y___g_e_n_e_r_a_t_o_r.html#ga264a98c90af2ffa231a239af738e896e">More...</a><br /></td></tr>
+<tr class="separator:ga264a98c90af2ffa231a239af738e896e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga6997656b45422ade82d69716874fa635"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___t_r_a_j_e_c_t_o_r_y___g_e_n_e_r_a_t_o_r.html#ga6997656b45422ade82d69716874fa635">lmc_tg_stop_trajectory</a> (<a class="el" href="group___t_r_a_j_e_c_t_o_r_y___g_e_n_e_r_a_t_o_r.html#ga315fdb9ab1a67d40e74660eb4045e25a">lmc_tg_t</a> *const tg)</td></tr>
 <tr class="memdesc:ga6997656b45422ade82d69716874fa635"><td class="mdescLeft">&#160;</td><td class="mdescRight">This function stop the trajecotry with an deceleration.  <a href="group___t_r_a_j_e_c_t_o_r_y___g_e_n_e_r_a_t_o_r.html#ga6997656b45422ade82d69716874fa635">More...</a><br /></td></tr>
 <tr class="separator:ga6997656b45422ade82d69716874fa635"><td class="memSeparator" colspan="2">&#160;</td></tr>
