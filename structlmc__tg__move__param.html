@@ -25,7 +25,7 @@
   <td id="projectlogo"><img alt="Logo" src="logo.png"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">lebai-motion-control
-   &#160;<span id="projectnumber">2.2.11</span>
+   &#160;<span id="projectnumber">2.2.12</span>
    </div>
    <div id="projectbrief">lebai motion control C interface</div>
   </td>
@@ -116,10 +116,10 @@ Data Fields</h2></td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Trjecotry generator move parameter. </p>
-<dl class="section note"><dt>Note</dt><dd>movej movel movec share same parameter data structure. </dd></dl>
+<dl class="section note"><dt>Note</dt><dd>movej, movel, movec and singluarity move share same parameter data structure. </dd></dl>
 <dl><dt><b>Examples: </b></dt><dd><a class="el" href="example_tg_8cc-example.html#_a28">example_tg.cc</a>.</dd>
 </dl>
-<p>Definition at line <a class="el" href="lmc__tg_8h_source.html#l00124">124</a> of file <a class="el" href="lmc__tg_8h_source.html">lmc_tg.h</a>.</p>
+<p>Definition at line <a class="el" href="lmc__tg_8h_source.html#l00125">125</a> of file <a class="el" href="lmc__tg_8h_source.html">lmc_tg.h</a>.</p>
 </div><h2 class="groupheader">Field Documentation</h2>
 <a class="anchor" id="a3f5829fb406b1eb98443802e65c97fc5"></a>
 <div class="memitem">
@@ -133,7 +133,7 @@ Data Fields</h2></td></tr>
 <p>Acceleration parameter </p>
 <dl><dt><b>Examples: </b></dt><dd><a class="el" href="example_tg_8cc-example.html#a30">example_tg.cc</a>.</dd>
 </dl>
-<p>Definition at line <a class="el" href="lmc__tg_8h_source.html#l00126">126</a> of file <a class="el" href="lmc__tg_8h_source.html">lmc_tg.h</a>.</p>
+<p>Definition at line <a class="el" href="lmc__tg_8h_source.html#l00127">127</a> of file <a class="el" href="lmc__tg_8h_source.html">lmc_tg.h</a>.</p>
 
 </div>
 </div>
@@ -146,10 +146,10 @@ Data Fields</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Blend radius parameter </p>
+<p>Blend radius parameter. Not work for singularity robust move. </p>
 <dl><dt><b>Examples: </b></dt><dd><a class="el" href="example_tg_8cc-example.html#a31">example_tg.cc</a>.</dd>
 </dl>
-<p>Definition at line <a class="el" href="lmc__tg_8h_source.html#l00129">129</a> of file <a class="el" href="lmc__tg_8h_source.html">lmc_tg.h</a>.</p>
+<p>Definition at line <a class="el" href="lmc__tg_8h_source.html#l00130">130</a> of file <a class="el" href="lmc__tg_8h_source.html">lmc_tg.h</a>.</p>
 
 </div>
 </div>
@@ -162,10 +162,10 @@ Data Fields</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Interruptable means we can skip this move in middle and goto next move. </p>
+<p>Interruptable means we can skip this move in middle and goto next move. Not work for singularity robust move. </p>
 <dl><dt><b>Examples: </b></dt><dd><a class="el" href="example_tg_8cc-example.html#a32">example_tg.cc</a>.</dd>
 </dl>
-<p>Definition at line <a class="el" href="lmc__tg_8h_source.html#l00129">129</a> of file <a class="el" href="lmc__tg_8h_source.html">lmc_tg.h</a>.</p>
+<p>Definition at line <a class="el" href="lmc__tg_8h_source.html#l00130">130</a> of file <a class="el" href="lmc__tg_8h_source.html">lmc_tg.h</a>.</p>
 
 </div>
 </div>
@@ -178,10 +178,10 @@ Data Fields</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Parameter indicate whether there is a blend radius </p>
+<p>Parameter indicate whether there is a blend radius. Not work for singularity robust move. </p>
 <dl><dt><b>Examples: </b></dt><dd><a class="el" href="example_tg_8cc-example.html#a33">example_tg.cc</a>.</dd>
 </dl>
-<p>Definition at line <a class="el" href="lmc__tg_8h_source.html#l00127">127</a> of file <a class="el" href="lmc__tg_8h_source.html">lmc_tg.h</a>.</p>
+<p>Definition at line <a class="el" href="lmc__tg_8h_source.html#l00128">128</a> of file <a class="el" href="lmc__tg_8h_source.html">lmc_tg.h</a>.</p>
 
 </div>
 </div>
@@ -197,7 +197,7 @@ Data Fields</h2></td></tr>
 <p>Time parameter </p>
 <dl><dt><b>Examples: </b></dt><dd><a class="el" href="example_tg_8cc-example.html#a34">example_tg.cc</a>.</dd>
 </dl>
-<p>Definition at line <a class="el" href="lmc__tg_8h_source.html#l00126">126</a> of file <a class="el" href="lmc__tg_8h_source.html">lmc_tg.h</a>.</p>
+<p>Definition at line <a class="el" href="lmc__tg_8h_source.html#l00127">127</a> of file <a class="el" href="lmc__tg_8h_source.html">lmc_tg.h</a>.</p>
 
 </div>
 </div>
@@ -213,7 +213,7 @@ Data Fields</h2></td></tr>
 <p>&lt; Velocity parameter </p>
 <dl><dt><b>Examples: </b></dt><dd><a class="el" href="example_tg_8cc-example.html#a29">example_tg.cc</a>.</dd>
 </dl>
-<p>Definition at line <a class="el" href="lmc__tg_8h_source.html#l00125">125</a> of file <a class="el" href="lmc__tg_8h_source.html">lmc_tg.h</a>.</p>
+<p>Definition at line <a class="el" href="lmc__tg_8h_source.html#l00126">126</a> of file <a class="el" href="lmc__tg_8h_source.html">lmc_tg.h</a>.</p>
 
 </div>
 </div>

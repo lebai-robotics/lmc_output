@@ -25,7 +25,7 @@
   <td id="projectlogo"><img alt="Logo" src="logo.png"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">lebai-motion-control
-   &#160;<span id="projectnumber">2.2.11</span>
+   &#160;<span id="projectnumber">2.2.12</span>
    </div>
    <div id="projectbrief">lebai motion control C interface</div>
   </td>
@@ -201,7 +201,8 @@ Enumerations</h2></td></tr>
 <tr class="separator:gac70fe7cd49c2a30feed66398743cb701"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga6ed7bdb146caeb1735a04515321e56f5"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___t_r_a_j_e_c_t_o_r_y___g_e_n_e_r_a_t_o_r.html#ga6ed7bdb146caeb1735a04515321e56f5">lmc_tg_group_type</a> { <a class="el" href="group___t_r_a_j_e_c_t_o_r_y___g_e_n_e_r_a_t_o_r.html#gga6ed7bdb146caeb1735a04515321e56f5ac1e0a2410a3e55b9cd5fa1a1d86f92c2">COMMON</a>, 
 <a class="el" href="group___t_r_a_j_e_c_t_o_r_y___g_e_n_e_r_a_t_o_r.html#gga6ed7bdb146caeb1735a04515321e56f5a16bfa797cbd89f5f02ddcee37f9c3e9b">PIECEWISE</a>, 
-<a class="el" href="group___t_r_a_j_e_c_t_o_r_y___g_e_n_e_r_a_t_o_r.html#gga6ed7bdb146caeb1735a04515321e56f5a17348c5246a9e7112e28f31ae6ffae58">TOWARD</a>
+<a class="el" href="group___t_r_a_j_e_c_t_o_r_y___g_e_n_e_r_a_t_o_r.html#gga6ed7bdb146caeb1735a04515321e56f5a17348c5246a9e7112e28f31ae6ffae58">TOWARD</a>, 
+<a class="el" href="group___t_r_a_j_e_c_t_o_r_y___g_e_n_e_r_a_t_o_r.html#gga6ed7bdb146caeb1735a04515321e56f5a15addea610286eb07470ec6bcfa45601">SINGROBUST</a>
  }<tr class="memdesc:ga6ed7bdb146caeb1735a04515321e56f5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Trjecotry generator group type.  <a href="group___t_r_a_j_e_c_t_o_r_y___g_e_n_e_r_a_t_o_r.html#ga6ed7bdb146caeb1735a04515321e56f5">More...</a><br /></td></tr>
 </td></tr>
 <tr class="separator:ga6ed7bdb146caeb1735a04515321e56f5"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -279,6 +280,9 @@ Functions</h2></td></tr>
 <tr class="memitem:ga264a98c90af2ffa231a239af738e896e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group___t_r_a_j_e_c_t_o_r_y___g_e_n_e_r_a_t_o_r.html#gaf1f592b5c04ccffcae99e111e54ccfd9">lmc_tg_buffer_ret_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___t_r_a_j_e_c_t_o_r_y___g_e_n_e_r_a_t_o_r.html#ga264a98c90af2ffa231a239af738e896e">lmc_tg_set_toward_joint</a> (<a class="el" href="group___t_r_a_j_e_c_t_o_r_y___g_e_n_e_r_a_t_o_r.html#ga315fdb9ab1a67d40e74660eb4045e25a">lmc_tg_t</a> *const tg, int id, double const *const target, <a class="el" href="group___t_r_a_j_e_c_t_o_r_y___g_e_n_e_r_a_t_o_r.html#ga2aee6859a5970f69f2a9befdcee4774b">lmc_tg_toward_param_t</a> const *const param)</td></tr>
 <tr class="memdesc:ga264a98c90af2ffa231a239af738e896e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Try to set new toward joint target.  <a href="#ga264a98c90af2ffa231a239af738e896e">More...</a><br /></td></tr>
 <tr class="separator:ga264a98c90af2ffa231a239af738e896e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga4f13206ac22326618ec6d7afe53b31fc"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group___t_r_a_j_e_c_t_o_r_y___g_e_n_e_r_a_t_o_r.html#gaf1f592b5c04ccffcae99e111e54ccfd9">lmc_tg_buffer_ret_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___t_r_a_j_e_c_t_o_r_y___g_e_n_e_r_a_t_o_r.html#ga4f13206ac22326618ec6d7afe53b31fc">lmc_tg_buffer_singularity_robust_move_line</a> (<a class="el" href="group___t_r_a_j_e_c_t_o_r_y___g_e_n_e_r_a_t_o_r.html#ga315fdb9ab1a67d40e74660eb4045e25a">lmc_tg_t</a> *const tg, int id, <a class="el" href="group___m_a_t_h.html#ga43c94b4eb1f98950076ef8ad6465c8f7">lmc_transform_t</a> const *const target, <a class="el" href="group___t_r_a_j_e_c_t_o_r_y___g_e_n_e_r_a_t_o_r.html#ga51574bc5c60bde5a5af40b5a169999f7">lmc_tg_move_param_t</a> const *const param)</td></tr>
+<tr class="memdesc:ga4f13206ac22326618ec6d7afe53b31fc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Try to add a singlarirty robust move line trajectory to buffer. This trajectory will try to avoid singularity.  <a href="#ga4f13206ac22326618ec6d7afe53b31fc">More...</a><br /></td></tr>
+<tr class="separator:ga4f13206ac22326618ec6d7afe53b31fc"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga6997656b45422ade82d69716874fa635"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___t_r_a_j_e_c_t_o_r_y___g_e_n_e_r_a_t_o_r.html#ga6997656b45422ade82d69716874fa635">lmc_tg_stop_trajectory</a> (<a class="el" href="group___t_r_a_j_e_c_t_o_r_y___g_e_n_e_r_a_t_o_r.html#ga315fdb9ab1a67d40e74660eb4045e25a">lmc_tg_t</a> *const tg)</td></tr>
 <tr class="memdesc:ga6997656b45422ade82d69716874fa635"><td class="mdescLeft">&#160;</td><td class="mdescRight">This function stop the trajecotry with an deceleration.  <a href="#ga6997656b45422ade82d69716874fa635">More...</a><br /></td></tr>
 <tr class="separator:ga6997656b45422ade82d69716874fa635"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -378,7 +382,7 @@ Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Trjecotry generator move parameter. </p>
-<dl class="section note"><dt>Note</dt><dd>movej movel movec share same parameter data structure. </dd></dl>
+<dl class="section note"><dt>Note</dt><dd>movej, movel, movec and singluarity move share same parameter data structure. </dd></dl>
 
 </div>
 </div>
@@ -583,7 +587,10 @@ Functions</h2></td></tr>
 <p>pt, pvt, pvat </p>
 </td></tr>
 <tr><td class="fieldname"><a class="anchor" id="gga6ed7bdb146caeb1735a04515321e56f5a17348c5246a9e7112e28f31ae6ffae58"></a>TOWARD&#160;</td><td class="fielddoc">
-<p>toward_joint </p>
+<p>toward joint </p>
+</td></tr>
+<tr><td class="fieldname"><a class="anchor" id="gga6ed7bdb146caeb1735a04515321e56f5a15addea610286eb07470ec6bcfa45601"></a>SINGROBUST&#160;</td><td class="fielddoc">
+<p>singularity robust movel </p>
 </td></tr>
 </table>
 
@@ -612,7 +619,7 @@ Functions</h2></td></tr>
 </td></tr>
 </table>
 
-<p>Definition at line <a class="el" href="lmc__tg_8h_source.html#l00102">102</a> of file <a class="el" href="lmc__tg_8h_source.html">lmc_tg.h</a>.</p>
+<p>Definition at line <a class="el" href="lmc__tg_8h_source.html#l00103">103</a> of file <a class="el" href="lmc__tg_8h_source.html">lmc_tg.h</a>.</p>
 
 </div>
 </div>
@@ -1058,6 +1065,60 @@ Functions</h2></td></tr>
 
 <p>Try to add a move line trajectory to buffer. </p>
 <dl class="section note"><dt>Note</dt><dd></dd></dl>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">tg</td><td>Trajectory generator data. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">id</td><td>ID of this trajectory. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">target</td><td>Target trajectory cartesian frame pose. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">param</td><td>Trajectory parameter data. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd></dd></dl>
+<dl class="section see"><dt>See also</dt><dd><a class="el" href="group___t_r_a_j_e_c_t_o_r_y___g_e_n_e_r_a_t_o_r.html#ga1765871cf2aabd5603dbd71ec99f23c2" title="trjecotry generator buffer xxx function ret ">lmc_tg_buffer_ret</a> to get return information. </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="ga4f13206ac22326618ec6d7afe53b31fc"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="group___t_r_a_j_e_c_t_o_r_y___g_e_n_e_r_a_t_o_r.html#gaf1f592b5c04ccffcae99e111e54ccfd9">lmc_tg_buffer_ret_t</a> lmc_tg_buffer_singularity_robust_move_line </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="group___t_r_a_j_e_c_t_o_r_y___g_e_n_e_r_a_t_o_r.html#ga315fdb9ab1a67d40e74660eb4045e25a">lmc_tg_t</a> *const&#160;</td>
+          <td class="paramname"><em>tg</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>id</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="group___m_a_t_h.html#ga43c94b4eb1f98950076ef8ad6465c8f7">lmc_transform_t</a> const *const&#160;</td>
+          <td class="paramname"><em>target</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="group___t_r_a_j_e_c_t_o_r_y___g_e_n_e_r_a_t_o_r.html#ga51574bc5c60bde5a5af40b5a169999f7">lmc_tg_move_param_t</a> const *const&#160;</td>
+          <td class="paramname"><em>param</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Try to add a singlarirty robust move line trajectory to buffer. This trajectory will try to avoid singularity. </p>
+<dl class="section note"><dt>Note</dt><dd>This function works when in <a class="el" href="group___t_r_a_j_e_c_t_o_r_y___g_e_n_e_r_a_t_o_r.html#gga6ed7bdb146caeb1735a04515321e56f5a15addea610286eb07470ec6bcfa45601">SINGROBUST</a> mode.If the trajectory generator is not in this mode, this function will return <a class="el" href="group___t_r_a_j_e_c_t_o_r_y___g_e_n_e_r_a_t_o_r.html#gga1765871cf2aabd5603dbd71ec99f23c2a9b37916f11be51493a374b741ba20343">BUFFER_RET_MISMATCH_GROUP</a>. </dd>
+<dd>
+</dd></dl>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramdir">[in]</td><td class="paramname">tg</td><td>Trajectory generator data. </td></tr>
