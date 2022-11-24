@@ -42,6 +42,7 @@ var searchData=
   ['lmc_5fgroup_5fstate_5fset_5fjnt_5fpos',['lmc_group_state_set_jnt_pos',['../group___g_r_o_u_p.html#ga8c31216be7ca840e1a892f26faafa8fa',1,'lmc_group.h']]],
   ['lmc_5fgroup_5fstate_5fupdate',['lmc_group_state_update',['../group___g_r_o_u_p.html#gae5d01293e5266e92bd9312e76ef752e5',1,'lmc_group.h']]],
   ['lmc_5fkin_5fall_5fik_5fposes',['lmc_kin_all_ik_poses',['../group___k_i_n_e_m_a_t_i_c_s.html#ga5bdfa0c58bdc3588e02d4fd1afad3fec',1,'lmc_kin.h']]],
+  ['lmc_5fkin_5fcal_5ftransform_5ffrom_5foxy',['lmc_kin_cal_transform_from_oxy',['../group___k_i_n_e_m_a_t_i_c_s.html#ga0605ba0f6e5c2f8e443f3ca2e8c2268d',1,'lmc_kin.h']]],
   ['lmc_5fkin_5fcal_5ftranslation',['lmc_kin_cal_translation',['../group___k_i_n_e_m_a_t_i_c_s.html#gad41c484245b0996f75c3a399551cf4f6',1,'lmc_kin.h']]],
   ['lmc_5fkin_5ffk_5fpose',['lmc_kin_fk_pose',['../group___k_i_n_e_m_a_t_i_c_s.html#gaba99e95b10ad6abb5a214f3907de95a8',1,'lmc_kin.h']]],
   ['lmc_5fkin_5ffk_5fpose_5fby_5findex',['lmc_kin_fk_pose_by_index',['../group___k_i_n_e_m_a_t_i_c_s.html#ga4f2821845393841dda8e85aa7c5890e9',1,'lmc_kin.h']]],
