@@ -17,6 +17,7 @@ var searchData=
   ['lmc_5fcontroller_5finit',['lmc_controller_init',['../group___c_o_n_t_r_o_l_l_e_r.html#ga929da7aabf44ec318fd0361cba9bb38a',1,'lmc_controller.h']]],
   ['lmc_5fcontroller_5fnew',['lmc_controller_new',['../group___c_o_n_t_r_o_l_l_e_r.html#gaa5bd8f3440015332613f09854f664a73',1,'lmc_controller.h']]],
   ['lmc_5fdyn_5fcomputed_5ftorque_5fcontrol',['lmc_dyn_computed_torque_control',['../group___d_y_n_a_m_i_c_s.html#ga7e56720049f631176b27152af3937f54',1,'lmc_dyn.h']]],
+  ['lmc_5fdyn_5festimate_5fpayload_5fwith_5ftwice_5fstrategy',['lmc_dyn_estimate_payload_with_twice_strategy',['../group___d_y_n_a_m_i_c_s.html#gae20d8034e9330e65973a5c3dc66aa083',1,'lmc_dyn.h']]],
   ['lmc_5fdyn_5fgravity_5fcompensate',['lmc_dyn_gravity_compensate',['../group___d_y_n_a_m_i_c_s.html#ga7f1f377bbbecdfe6af85322cb224c30d',1,'lmc_dyn.h']]],
   ['lmc_5fdyn_5fid',['lmc_dyn_id',['../group___d_y_n_a_m_i_c_s.html#ga73d106dcee335c5b8fb3ac65867d1ce0',1,'lmc_dyn.h']]],
   ['lmc_5fdyn_5finit_5ftcp_5fforce_5fmomentum_5fobserver_5festimation',['lmc_dyn_init_tcp_force_momentum_observer_estimation',['../group___d_y_n_a_m_i_c_s.html#gafdeb89bb7eefe7846969a753f7639057',1,'lmc_dyn.h']]],

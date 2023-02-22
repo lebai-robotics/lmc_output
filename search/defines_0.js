@@ -5,6 +5,7 @@ var searchData=
   ['lmc_5fmax_5fik_5fsolutions',['LMC_MAX_IK_SOLUTIONS',['../lmc__config_8h.html#ab9bb9c9bdb7be8e3df2b5249bc262ea4',1,'lmc_config.h']]],
   ['lmc_5fmax_5fjoint_5fnum',['LMC_MAX_JOINT_NUM',['../lmc__config_8h.html#a2fca85b440f6d9f1f2a6ebd05e685a87',1,'lmc_config.h']]],
   ['lmc_5fmax_5flink_5fnum',['LMC_MAX_LINK_NUM',['../lmc__config_8h.html#a8bd8392ce7ad89c73970227e8e2ca44f',1,'lmc_config.h']]],
+  ['lmc_5fmax_5fsample_5fdata_5fsize',['LMC_MAX_SAMPLE_DATA_SIZE',['../lmc__config_8h.html#a95ae3e680ae6d63ce0e4f65853516b69',1,'lmc_config.h']]],
   ['lmc_5fmax_5fstring_5flen',['LMC_MAX_STRING_LEN',['../lmc__config_8h.html#a9fe5842693e9e20453ec5f5aede258e9',1,'lmc_config.h']]],
   ['lmc_5fproject_5fname',['LMC_PROJECT_NAME',['../lmc__config_8h.html#a3c68436a5a94e015cc1f3eadff920a2d',1,'lmc_config.h']]],
   ['lmc_5ftg_5fdefault_5fbuffer_5fsize',['LMC_TG_DEFAULT_BUFFER_SIZE',['../lmc__config_8h.html#a723b15f17c266ebec00be768f70276f5',1,'lmc_config.h']]],

@@ -1,6 +1,7 @@
 var searchData=
 [
   ['lmc_5fall_5fjoint_5fposes_5ft',['lmc_all_joint_poses_t',['../lmc__joint_8h.html#af42236a0f6c4aba07de938a8c8b6f619',1,'lmc_joint.h']]],
+  ['lmc_5fall_5fsampled_5fjoint_5fstate_5ft',['lmc_all_sampled_joint_state_t',['../lmc__joint_8h.html#a7e25619eb53d8ed936979ebffcdb325a',1,'lmc_joint.h']]],
   ['lmc_5fcontroller_5fcartesian_5fadmittance_5fconfig_5ft',['lmc_controller_cartesian_admittance_config_t',['../group___c_o_n_t_r_o_l_l_e_r.html#gae115b39f6915c7c8d7c36bf1c538f4ef',1,'lmc_controller.h']]],
   ['lmc_5fcontroller_5ft',['lmc_controller_t',['../group___c_o_n_t_r_o_l_l_e_r.html#ga3da7559a5eb1ef2033120d45a5efa452',1,'lmc_controller.h']]],
   ['lmc_5feuler_5ft',['lmc_euler_t',['../group___m_a_t_h.html#ga2d894d245e866fd9695997f83b3048d6',1,'lmc_math.h']]],

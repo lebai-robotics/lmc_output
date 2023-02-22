@@ -25,7 +25,7 @@
   <td id="projectlogo"><img alt="Logo" src="logo.png"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">lebai-motion-control
-   &#160;<span id="projectnumber">2.2.13</span>
+   &#160;<span id="projectnumber">2.2.14</span>
    </div>
    <div id="projectbrief">lebai motion control C interface</div>
   </td>
@@ -104,6 +104,9 @@ Functions</h2></td></tr>
 <tr class="memitem:gafdeb89bb7eefe7846969a753f7639057"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___d_y_n_a_m_i_c_s.html#gafdeb89bb7eefe7846969a753f7639057">lmc_dyn_init_tcp_force_momentum_observer_estimation</a> (<a class="el" href="group___r_o_b_o_t___m_o_d_e_l.html#ga88801e600508c29bfd792993c252af02">lmc_robot_model_t</a> *const robot_model, <a class="el" href="lmc__joint_8h.html#a834eed68f0b2dad17a4f52a885e5e1d5">lmc_joint_state_t</a> const *const joint_state)</td></tr>
 <tr class="memdesc:gafdeb89bb7eefe7846969a753f7639057"><td class="mdescLeft">&#160;</td><td class="mdescRight">Init momentum observer estimation.  <a href="#gafdeb89bb7eefe7846969a753f7639057">More...</a><br /></td></tr>
 <tr class="separator:gafdeb89bb7eefe7846969a753f7639057"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gae20d8034e9330e65973a5c3dc66aa083"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___d_y_n_a_m_i_c_s.html#gae20d8034e9330e65973a5c3dc66aa083">lmc_dyn_estimate_payload_with_twice_strategy</a> (<a class="el" href="group___r_o_b_o_t___m_o_d_e_l.html#ga88801e600508c29bfd792993c252af02">lmc_robot_model_t</a> *const robot_model, <a class="el" href="lmc__joint_8h.html#a7e25619eb53d8ed936979ebffcdb325a">lmc_all_sampled_joint_state_t</a> const *const all_sampled_data, double *const mass, <a class="el" href="group___m_a_t_h.html#ga8374faadca414a54856e2bc3e33ff9e4">lmc_translation_t</a> *const com)</td></tr>
+<tr class="memdesc:gae20d8034e9330e65973a5c3dc66aa083"><td class="mdescLeft">&#160;</td><td class="mdescRight">Estimate payload parameter.  <a href="#gae20d8034e9330e65973a5c3dc66aa083">More...</a><br /></td></tr>
+<tr class="separator:gae20d8034e9330e65973a5c3dc66aa083"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga7f1f377bbbecdfe6af85322cb224c30d"><td class="memItemLeft" align="right" valign="top">*int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___d_y_n_a_m_i_c_s.html#ga7f1f377bbbecdfe6af85322cb224c30d">lmc_dyn_gravity_compensate</a> (<a class="el" href="group___r_o_b_o_t___m_o_d_e_l.html#ga88801e600508c29bfd792993c252af02">lmc_robot_model_t</a> *const robot_model, <a class="el" href="lmc__joint_8h.html#a834eed68f0b2dad17a4f52a885e5e1d5">lmc_joint_state_t</a> const *const joint_state,*double *const torque)</td></tr>
 <tr class="memdesc:ga7f1f377bbbecdfe6af85322cb224c30d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Compute gravity compensation for robot, can be used for teaching.  <a href="#ga7f1f377bbbecdfe6af85322cb224c30d">More...</a><br /></td></tr>
 <tr class="separator:ga7f1f377bbbecdfe6af85322cb224c30d"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -202,6 +205,57 @@ Functions</h2></td></tr>
 </dl>
 </li>
 </ul>
+
+</div>
+</div>
+<a class="anchor" id="gae20d8034e9330e65973a5c3dc66aa083"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int lmc_dyn_estimate_payload_with_twice_strategy </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="group___r_o_b_o_t___m_o_d_e_l.html#ga88801e600508c29bfd792993c252af02">lmc_robot_model_t</a> *const&#160;</td>
+          <td class="paramname"><em>robot_model</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="lmc__joint_8h.html#a7e25619eb53d8ed936979ebffcdb325a">lmc_all_sampled_joint_state_t</a> const *const&#160;</td>
+          <td class="paramname"><em>all_sampled_data</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double *const&#160;</td>
+          <td class="paramname"><em>mass</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="group___m_a_t_h.html#ga8374faadca414a54856e2bc3e33ff9e4">lmc_translation_t</a> *const&#160;</td>
+          <td class="paramname"><em>com</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Estimate payload parameter. </p>
+<dl class="section note"><dt>Note</dt><dd>Maximun 1000 sample points. </dd></dl>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">robot_model</td><td>Robot model data for dynamic computing. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">all_sampled_data</td><td>All sampled data. For joint torques, we get the delta torques of two measurements. Only one joint can move simultaneously. </td></tr>
+    <tr><td class="paramdir">[out]</td><td class="paramname">mass</td><td>computed mass. </td></tr>
+    <tr><td class="paramdir">[out]</td><td class="paramname">com</td><td>computed center of mass. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>Return 0 on success, otherwise failure. </dd></dl>
 
 </div>
 </div>
