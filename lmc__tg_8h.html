@@ -25,7 +25,7 @@
   <td id="projectlogo"><img alt="Logo" src="logo.png"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">lebai-motion-control
-   &#160;<span id="projectnumber">2.2.16</span>
+   &#160;<span id="projectnumber">2.2.17</span>
    </div>
    <div id="projectbrief">lebai motion control C interface</div>
   </td>
@@ -317,6 +317,12 @@ Functions</h2></td></tr>
 <tr class="memitem:ga448e20c59619ce1f27c14c87bd90be78"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___t_r_a_j_e_c_t_o_r_y___g_e_n_e_r_a_t_o_r.html#ga448e20c59619ce1f27c14c87bd90be78">lmc_tg_set_vel_scale</a> (<a class="el" href="group___t_r_a_j_e_c_t_o_r_y___g_e_n_e_r_a_t_o_r.html#ga315fdb9ab1a67d40e74660eb4045e25a">lmc_tg_t</a> *const tg, double scale)</td></tr>
 <tr class="memdesc:ga448e20c59619ce1f27c14c87bd90be78"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the velocity scale of trajectory data range from 0.0 to 1.0.  <a href="group___t_r_a_j_e_c_t_o_r_y___g_e_n_e_r_a_t_o_r.html#ga448e20c59619ce1f27c14c87bd90be78">More...</a><br /></td></tr>
 <tr class="separator:ga448e20c59619ce1f27c14c87bd90be78"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gab9b5ef72aaac42b02a1e3a52b0cfd886"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___t_r_a_j_e_c_t_o_r_y___g_e_n_e_r_a_t_o_r.html#gab9b5ef72aaac42b02a1e3a52b0cfd886">lmc_tg_release_control</a> (<a class="el" href="group___t_r_a_j_e_c_t_o_r_y___g_e_n_e_r_a_t_o_r.html#ga315fdb9ab1a67d40e74660eb4045e25a">lmc_tg_t</a> *const tg, double t)</td></tr>
+<tr class="memdesc:gab9b5ef72aaac42b02a1e3a52b0cfd886"><td class="mdescLeft">&#160;</td><td class="mdescRight">Give up the control of trajectory generator, the trajectory generator will output as <a class="el" href="group___t_r_a_j_e_c_t_o_r_y___g_e_n_e_r_a_t_o_r.html#ga016b809f89a3853c499bc2959be8ae7d">lmc_tg_update_joint_state</a>. for while, and keep it.  <a href="group___t_r_a_j_e_c_t_o_r_y___g_e_n_e_r_a_t_o_r.html#gab9b5ef72aaac42b02a1e3a52b0cfd886">More...</a><br /></td></tr>
+<tr class="separator:gab9b5ef72aaac42b02a1e3a52b0cfd886"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga2f6430c7583d699244aa9f3c33e3be10"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___t_r_a_j_e_c_t_o_r_y___g_e_n_e_r_a_t_o_r.html#ga2f6430c7583d699244aa9f3c33e3be10">lmc_tg_sieze_control</a> (<a class="el" href="group___t_r_a_j_e_c_t_o_r_y___g_e_n_e_r_a_t_o_r.html#ga315fdb9ab1a67d40e74660eb4045e25a">lmc_tg_t</a> *const tg, double vel_scale)</td></tr>
+<tr class="memdesc:ga2f6430c7583d699244aa9f3c33e3be10"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sieze the control after release it. it will move from current position to the position when release, and then continue the trajectory.  <a href="group___t_r_a_j_e_c_t_o_r_y___g_e_n_e_r_a_t_o_r.html#ga2f6430c7583d699244aa9f3c33e3be10">More...</a><br /></td></tr>
+<tr class="separator:ga2f6430c7583d699244aa9f3c33e3be10"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga331538e063b89f5cab68e85712fa5903"><td class="memItemLeft" align="right" valign="top">size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___t_r_a_j_e_c_t_o_r_y___g_e_n_e_r_a_t_o_r.html#ga331538e063b89f5cab68e85712fa5903">lmc_tg_get_buffer_size</a> (<a class="el" href="group___t_r_a_j_e_c_t_o_r_y___g_e_n_e_r_a_t_o_r.html#ga315fdb9ab1a67d40e74660eb4045e25a">lmc_tg_t</a> const *const tg)</td></tr>
 <tr class="memdesc:ga331538e063b89f5cab68e85712fa5903"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get number of buffered trajectory .  <a href="group___t_r_a_j_e_c_t_o_r_y___g_e_n_e_r_a_t_o_r.html#ga331538e063b89f5cab68e85712fa5903">More...</a><br /></td></tr>
 <tr class="separator:ga331538e063b89f5cab68e85712fa5903"><td class="memSeparator" colspan="2">&#160;</td></tr>
