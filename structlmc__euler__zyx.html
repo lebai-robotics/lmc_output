@@ -4,7 +4,7 @@
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.11"/>
-<title>lebai-motion-control: lmc_translation Struct Reference</title>
+<title>lebai-motion-control: lmc_euler_zyx Struct Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -90,72 +90,72 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
   <div class="summary">
 <a href="#pub-attribs">Data Fields</a>  </div>
   <div class="headertitle">
-<div class="title">lmc_translation Struct Reference<div class="ingroups"><a class="el" href="group___m_a_t_h.html">math</a></div></div>  </div>
+<div class="title">lmc_euler_zyx Struct Reference<div class="ingroups"><a class="el" href="group___m_a_t_h.html">math</a></div></div>  </div>
 </div><!--header-->
 <div class="contents">
 
-<p>Cartesian translation coordinate.  
- <a href="structlmc__translation.html#details">More...</a></p>
+<p>Euler zyx representation of rotation.  
+ <a href="structlmc__euler__zyx.html#details">More...</a></p>
 
 <p><code>#include &lt;<a class="el" href="lmc__math_8h_source.html">lmc_math.h</a>&gt;</code></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
 Data Fields</h2></td></tr>
-<tr class="memitem:af88b946fb90d5f08b5fb740c70e98c10"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structlmc__translation.html#af88b946fb90d5f08b5fb740c70e98c10">x</a></td></tr>
-<tr class="separator:af88b946fb90d5f08b5fb740c70e98c10"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab927965981178aa1fba979a37168db2a"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structlmc__translation.html#ab927965981178aa1fba979a37168db2a">y</a></td></tr>
-<tr class="separator:ab927965981178aa1fba979a37168db2a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab3e6ed577a7c669c19de1f9c1b46c872"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structlmc__translation.html#ab3e6ed577a7c669c19de1f9c1b46c872">z</a></td></tr>
-<tr class="separator:ab3e6ed577a7c669c19de1f9c1b46c872"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a20f4c4490bc8ecbdd1ffcb79acce6035"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structlmc__euler__zyx.html#a20f4c4490bc8ecbdd1ffcb79acce6035">alpha</a></td></tr>
+<tr class="separator:a20f4c4490bc8ecbdd1ffcb79acce6035"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9424343761f8c4f4c1afe8f5b6bf471b"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structlmc__euler__zyx.html#a9424343761f8c4f4c1afe8f5b6bf471b">beta</a></td></tr>
+<tr class="separator:a9424343761f8c4f4c1afe8f5b6bf471b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a72f9e01745b3a8203067ab84aefc9aea"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structlmc__euler__zyx.html#a72f9e01745b3a8203067ab84aefc9aea">gamma</a></td></tr>
+<tr class="separator:a72f9e01745b3a8203067ab84aefc9aea"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p>Cartesian translation coordinate. </p>
-<p>This parameter is used for input. </p><dl class="section note"><dt>Note</dt><dd>Same as coordinate_t in lebai_kdl. </dd></dl>
+<div class="textblock"><p>Euler zyx representation of rotation. </p>
+<dl class="section note"><dt>Note</dt><dd>Same as euler_t in lebai_kdl. </dd></dl>
 
-<p>Definition at line <a class="el" href="lmc__math_8h_source.html#l00029">29</a> of file <a class="el" href="lmc__math_8h_source.html">lmc_math.h</a>.</p>
+<p>Definition at line <a class="el" href="lmc__math_8h_source.html#l00051">51</a> of file <a class="el" href="lmc__math_8h_source.html">lmc_math.h</a>.</p>
 </div><h2 class="groupheader">Field Documentation</h2>
-<a class="anchor" id="af88b946fb90d5f08b5fb740c70e98c10"></a>
+<a class="anchor" id="a20f4c4490bc8ecbdd1ffcb79acce6035"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">double x</td>
+          <td class="memname">double alpha</td>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Coordinate x data. </p>
+<p>rz. </p>
 
-<p>Definition at line <a class="el" href="lmc__math_8h_source.html#l00030">30</a> of file <a class="el" href="lmc__math_8h_source.html">lmc_math.h</a>.</p>
+<p>Definition at line <a class="el" href="lmc__math_8h_source.html#l00052">52</a> of file <a class="el" href="lmc__math_8h_source.html">lmc_math.h</a>.</p>
 
 </div>
 </div>
-<a class="anchor" id="ab927965981178aa1fba979a37168db2a"></a>
+<a class="anchor" id="a9424343761f8c4f4c1afe8f5b6bf471b"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">double y</td>
+          <td class="memname">double beta</td>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Coordinate y data. </p>
+<p>ry. </p>
 
-<p>Definition at line <a class="el" href="lmc__math_8h_source.html#l00031">31</a> of file <a class="el" href="lmc__math_8h_source.html">lmc_math.h</a>.</p>
+<p>Definition at line <a class="el" href="lmc__math_8h_source.html#l00053">53</a> of file <a class="el" href="lmc__math_8h_source.html">lmc_math.h</a>.</p>
 
 </div>
 </div>
-<a class="anchor" id="ab3e6ed577a7c669c19de1f9c1b46c872"></a>
+<a class="anchor" id="a72f9e01745b3a8203067ab84aefc9aea"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">double z</td>
+          <td class="memname">double gamma</td>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Coordinate z data. </p>
+<p>rx. </p>
 
-<p>Definition at line <a class="el" href="lmc__math_8h_source.html#l00032">32</a> of file <a class="el" href="lmc__math_8h_source.html">lmc_math.h</a>.</p>
+<p>Definition at line <a class="el" href="lmc__math_8h_source.html#l00054">54</a> of file <a class="el" href="lmc__math_8h_source.html">lmc_math.h</a>.</p>
 
 </div>
 </div>

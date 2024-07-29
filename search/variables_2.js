@@ -6,6 +6,5 @@ var searchData=
   ['cartesian_5fmax_5fv',['cartesian_max_v',['../structlmc__tg__limit.html#ad03877e98063f07aafaecb06f08f8c1d',1,'lmc_tg_limit']]],
   ['cog',['cog',['../structlmc__tool__payload.html#a441d2a40627ed20f356990f0f9358bde',1,'lmc_tool_payload']]],
   ['com',['com',['../structlmc__link__dyn__config.html#aabbd78d3be2c5d27667b333b498db937',1,'lmc_link_dyn_config']]],
-  ['contacts',['contacts',['../structlmc__group__collide__resp.html#ac68688e096096c8f7df6076b690e9b8e',1,'lmc_group_collide_resp']]],
   ['cycle_5ftime',['cycle_time',['../structlmc__tg__config.html#a772977d3af9ea2c8a7d41eb425b5eb60',1,'lmc_tg_config']]]
 ];

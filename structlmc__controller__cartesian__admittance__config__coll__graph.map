@@ -1,6 +1,6 @@
 <map id="lmc_controller_cartesian_admittance_config" name="lmc_controller_cartesian_admittance_config">
-<area shape="rect" id="node2" href="$structlmc__transform.html" title="Transform representation. " alt="" coords="132,109,247,136"/>
+<area shape="rect" id="node2" href="$structlmc__transform.html" title="Transform representation. " alt="" coords="139,109,253,136"/>
 <area shape="rect" id="node3" href="$structlmc__translation.html" title="Cartesian translation coordinate. " alt="" coords="5,5,125,32"/>
-<area shape="rect" id="node5" href="$structlmc__wrench.html" title="Transform force representation. " alt="" coords="10,109,107,136"/>
-<area shape="rect" id="node4" href="$structlmc__euler.html" title="Euler zyx representation of rotation. " alt="" coords="157,5,241,32"/>
+<area shape="rect" id="node5" href="$structlmc__wrench.html" title="Transform force representation. " alt="" coords="17,109,114,136"/>
+<area shape="rect" id="node4" href="$structlmc__euler__zyx.html" title="Euler zyx representation of rotation. " alt="" coords="149,5,261,32"/>
 </map>

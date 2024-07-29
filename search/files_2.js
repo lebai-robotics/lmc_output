@@ -4,8 +4,6 @@ var searchData=
   ['lmc_5fconfig_2eh',['lmc_config.h',['../lmc__config_8h.html',1,'']]],
   ['lmc_5fcontroller_2eh',['lmc_controller.h',['../lmc__controller_8h.html',1,'']]],
   ['lmc_5fdyn_2eh',['lmc_dyn.h',['../lmc__dyn_8h.html',1,'']]],
-  ['lmc_5fgroup_2eh',['lmc_group.h',['../lmc__group_8h.html',1,'']]],
-  ['lmc_5fgroup_5fconfig_2eh',['lmc_group_config.h',['../lmc__group__config_8h.html',1,'']]],
   ['lmc_5fjoint_2eh',['lmc_joint.h',['../lmc__joint_8h.html',1,'']]],
   ['lmc_5fkin_2eh',['lmc_kin.h',['../lmc__kin_8h.html',1,'']]],
   ['lmc_5fmath_2eh',['lmc_math.h',['../lmc__math_8h.html',1,'']]],

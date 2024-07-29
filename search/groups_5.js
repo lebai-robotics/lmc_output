@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['robot_5fmodel',['robot_model',['../group___r_o_b_o_t___m_o_d_e_l.html',1,'']]]
+  ['trajectory_5fgenerator',['trajectory_generator',['../group___t_r_a_j_e_c_t_o_r_y___g_e_n_e_r_a_t_o_r.html',1,'']]]
 ];

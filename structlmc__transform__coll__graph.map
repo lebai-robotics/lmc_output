@@ -1,4 +1,4 @@
 <map id="lmc_transform" name="lmc_transform">
 <area shape="rect" id="node2" href="$structlmc__translation.html" title="Cartesian translation coordinate. " alt="" coords="5,5,125,32"/>
-<area shape="rect" id="node3" href="$structlmc__euler.html" title="Euler zyx representation of rotation. " alt="" coords="150,5,234,32"/>
+<area shape="rect" id="node3" href="$structlmc__euler__zyx.html" title="Euler zyx representation of rotation. " alt="" coords="149,5,261,32"/>
 </map>

@@ -25,7 +25,7 @@
   <td id="projectlogo"><img alt="Logo" src="logo.png"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">lebai-motion-control
-   &#160;<span id="projectnumber">2.2.18</span>
+   &#160;<span id="projectnumber">3.1.2</span>
    </div>
    <div id="projectbrief">lebai motion control C interface</div>
   </td>
@@ -106,20 +106,17 @@ This graph shows which files directly or indirectly include this file:</div>
 <div class="dyncontent">
 <div class="center"><img src="lmc__math_8h__dep__incl.png" border="0" usemap="#lmc__math_8hdep" alt=""/></div>
 <map name="lmc__math_8hdep" id="lmc__math_8hdep">
-<area shape="rect" id="node2" href="lmc__group__config_8h.html" title="Group(basic unit for coliision detect and motion planner) config data structures. ..." alt="" coords="148,80,295,107"/>
-<area shape="rect" id="node5" href="lmc__robot__model__config_8h.html" title="Robot model config related data structures. " alt="" coords="449,80,639,107"/>
-<area shape="rect" id="node15" href="lmc__tg__config_8h.html" title="Trajectory generator configuration data structure. " alt="" coords="737,155,860,181"/>
-<area shape="rect" id="node3" href="lmc__group_8h.html" title="Group(basic unit for coliision detect and motion planner) related data structures and functions..." alt="" coords="105,155,207,181"/>
-<area shape="rect" id="node4" href="example__urdf__group_8cc.html" title="example_urdf_group.cc" alt="" coords="5,229,176,256"/>
-<area shape="rect" id="node6" href="lmc__robot__model_8h.html" title="Robot model related data structures and functions. " alt="" coords="471,155,617,181"/>
-<area shape="rect" id="node7" href="lmc__controller_8h.html" title="Controller related functions. " alt="" coords="200,229,323,256"/>
-<area shape="rect" id="node8" href="lmc__dyn_8h.html" title="Dynamic related functions. " alt="" coords="347,229,434,256"/>
-<area shape="rect" id="node9" href="lmc__kin_8h.html" title="Kinematic related functions. " alt="" coords="653,229,736,256"/>
-<area shape="rect" id="node10" href="lmc__tg_8h.html" title="Trajectory generator related data structures and functions. " alt="" coords="760,229,837,256"/>
-<area shape="rect" id="node12" href="create__robot__model_8hh.html" title="create robot model function. " alt="" coords="459,229,629,256"/>
-<area shape="rect" id="node11" href="example__tg_8cc.html" title="example_tg.cc" alt="" coords="741,304,856,331"/>
-<area shape="rect" id="node13" href="create__robot__model_8cc.html" title="create_robot_model.cc" alt="" coords="299,304,469,331"/>
-<area shape="rect" id="node14" href="example__robot__model_8cc.html" title="example_robot_model.cc" alt="" coords="493,304,675,331"/>
+<area shape="rect" id="node2" href="lmc__robot__model__config_8h.html" title="Robot model config related data structures. " alt="" coords="531,80,721,107"/>
+<area shape="rect" id="node12" href="lmc__tg__config_8h.html" title="Trajectory generator configuration data structure. " alt="" coords="801,155,923,181"/>
+<area shape="rect" id="node3" href="lmc__robot__model_8h.html" title="Robot model related data structures and functions. " alt="" coords="553,155,699,181"/>
+<area shape="rect" id="node10" href="create__robot__model_8hh.html" title="create robot model function. " alt="" coords="193,155,363,181"/>
+<area shape="rect" id="node4" href="lmc__controller_8h.html" title="Controller related functions. " alt="" coords="565,229,687,256"/>
+<area shape="rect" id="node5" href="lmc__dyn_8h.html" title="Dynamic related functions. " alt="" coords="712,229,799,256"/>
+<area shape="rect" id="node6" href="lmc__kin_8h.html" title="Kinematic related functions. " alt="" coords="458,229,541,256"/>
+<area shape="rect" id="node7" href="lmc__tg_8h.html" title="Trajectory generator related data structures and functions. " alt="" coords="823,229,901,256"/>
+<area shape="rect" id="node9" href="example__robot__model_8cc.html" title="example_robot_model.cc" alt="" coords="251,229,433,256"/>
+<area shape="rect" id="node8" href="example__tg_8cc.html" title="example_tg.cc" alt="" coords="805,304,919,331"/>
+<area shape="rect" id="node11" href="create__robot__model_8cc.html" title="create_robot_model.cc" alt="" coords="5,229,175,256"/>
 </map>
 </div>
 </div>
@@ -133,8 +130,11 @@ Data Structures</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structlmc__rpy.html">lmc_rpy</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">RPY representation of rotation.  <a href="structlmc__rpy.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structlmc__euler.html">lmc_euler</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Euler zyx representation of rotation.  <a href="structlmc__euler.html#details">More...</a><br /></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structlmc__euler__zyx.html">lmc_euler_zyx</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Euler zyx representation of rotation.  <a href="structlmc__euler__zyx.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structlmc__euler__zyz.html">lmc_euler_zyz</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Euler zyx representation of rotation.  <a href="structlmc__euler__zyz.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structlmc__quaternion.html">lmc_quaternion</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Quaternion representation of rotation.  <a href="structlmc__quaternion.html#details">More...</a><br /></td></tr>
@@ -157,9 +157,12 @@ Typedefs</h2></td></tr>
 <tr class="memitem:gaeca7fc33fb069bab08fdb039b8d9afda"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="structlmc__rpy.html">lmc_rpy</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___m_a_t_h.html#gaeca7fc33fb069bab08fdb039b8d9afda">lmc_rpy_t</a></td></tr>
 <tr class="memdesc:gaeca7fc33fb069bab08fdb039b8d9afda"><td class="mdescLeft">&#160;</td><td class="mdescRight">RPY representation of rotation.  <a href="group___m_a_t_h.html#gaeca7fc33fb069bab08fdb039b8d9afda">More...</a><br /></td></tr>
 <tr class="separator:gaeca7fc33fb069bab08fdb039b8d9afda"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga2d894d245e866fd9695997f83b3048d6"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="structlmc__euler.html">lmc_euler</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___m_a_t_h.html#ga2d894d245e866fd9695997f83b3048d6">lmc_euler_t</a></td></tr>
-<tr class="memdesc:ga2d894d245e866fd9695997f83b3048d6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Euler zyx representation of rotation.  <a href="group___m_a_t_h.html#ga2d894d245e866fd9695997f83b3048d6">More...</a><br /></td></tr>
-<tr class="separator:ga2d894d245e866fd9695997f83b3048d6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gaf54148199ba99c19929ed3d47658d36f"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="structlmc__euler__zyx.html">lmc_euler_zyx</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___m_a_t_h.html#gaf54148199ba99c19929ed3d47658d36f">lmc_euler_zyx_t</a></td></tr>
+<tr class="memdesc:gaf54148199ba99c19929ed3d47658d36f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Euler zyx representation of rotation.  <a href="group___m_a_t_h.html#gaf54148199ba99c19929ed3d47658d36f">More...</a><br /></td></tr>
+<tr class="separator:gaf54148199ba99c19929ed3d47658d36f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga291d0f843e39b4fd3a307682d5993017"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="structlmc__euler__zyz.html">lmc_euler_zyz</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___m_a_t_h.html#ga291d0f843e39b4fd3a307682d5993017">lmc_euler_zyz_t</a></td></tr>
+<tr class="memdesc:ga291d0f843e39b4fd3a307682d5993017"><td class="mdescLeft">&#160;</td><td class="mdescRight">Euler zyx representation of rotation.  <a href="group___m_a_t_h.html#ga291d0f843e39b4fd3a307682d5993017">More...</a><br /></td></tr>
+<tr class="separator:ga291d0f843e39b4fd3a307682d5993017"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga75f1f9111bbeeccc3a2c1d49b1fa59d3"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="structlmc__quaternion.html">lmc_quaternion</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___m_a_t_h.html#ga75f1f9111bbeeccc3a2c1d49b1fa59d3">lmc_quaternion_t</a></td></tr>
 <tr class="memdesc:ga75f1f9111bbeeccc3a2c1d49b1fa59d3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Quaternion representation of rotation.  <a href="group___m_a_t_h.html#ga75f1f9111bbeeccc3a2c1d49b1fa59d3">More...</a><br /></td></tr>
 <tr class="separator:ga75f1f9111bbeeccc3a2c1d49b1fa59d3"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -177,12 +180,24 @@ typedef struct <a class="el" href="structlmc__wrench.html">lmc_wrench</a>&#160;<
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:ga6a4d1308fb1218d76db50844f1c1beba"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___m_a_t_h.html#ga6a4d1308fb1218d76db50844f1c1beba">lmc_euler_to_quaternion</a> (<a class="el" href="group___m_a_t_h.html#ga2d894d245e866fd9695997f83b3048d6">lmc_euler_t</a> const *const euler, <a class="el" href="group___m_a_t_h.html#ga75f1f9111bbeeccc3a2c1d49b1fa59d3">lmc_quaternion_t</a> *const quat)</td></tr>
-<tr class="memdesc:ga6a4d1308fb1218d76db50844f1c1beba"><td class="mdescLeft">&#160;</td><td class="mdescRight">Math function to compute euler zyx to quaternion.  <a href="group___m_a_t_h.html#ga6a4d1308fb1218d76db50844f1c1beba">More...</a><br /></td></tr>
-<tr class="separator:ga6a4d1308fb1218d76db50844f1c1beba"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga2cc9d579698fc25d021ca99bde8e90f0"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___m_a_t_h.html#ga2cc9d579698fc25d021ca99bde8e90f0">lmc_quaternion_to_euler</a> (<a class="el" href="group___m_a_t_h.html#ga75f1f9111bbeeccc3a2c1d49b1fa59d3">lmc_quaternion_t</a> const *const quat, <a class="el" href="group___m_a_t_h.html#ga2d894d245e866fd9695997f83b3048d6">lmc_euler_t</a> *const euler)</td></tr>
-<tr class="memdesc:ga2cc9d579698fc25d021ca99bde8e90f0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Math function to compute euler zyx to quaternion.  <a href="group___m_a_t_h.html#ga2cc9d579698fc25d021ca99bde8e90f0">More...</a><br /></td></tr>
-<tr class="separator:ga2cc9d579698fc25d021ca99bde8e90f0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga3c56bb1fa37298a481b58974b4e6e391"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___m_a_t_h.html#ga3c56bb1fa37298a481b58974b4e6e391">lmc_euler_zyx_to_quaternion</a> (<a class="el" href="group___m_a_t_h.html#gaf54148199ba99c19929ed3d47658d36f">lmc_euler_zyx_t</a> const *const euler, <a class="el" href="group___m_a_t_h.html#ga75f1f9111bbeeccc3a2c1d49b1fa59d3">lmc_quaternion_t</a> *const quat)</td></tr>
+<tr class="memdesc:ga3c56bb1fa37298a481b58974b4e6e391"><td class="mdescLeft">&#160;</td><td class="mdescRight">Math function to compute euler zyx to quaternion.  <a href="group___m_a_t_h.html#ga3c56bb1fa37298a481b58974b4e6e391">More...</a><br /></td></tr>
+<tr class="separator:ga3c56bb1fa37298a481b58974b4e6e391"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gabf9fd731c01425017a797794e261f656"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___m_a_t_h.html#gabf9fd731c01425017a797794e261f656">lmc_quaternion_to_euler_zyx</a> (<a class="el" href="group___m_a_t_h.html#ga75f1f9111bbeeccc3a2c1d49b1fa59d3">lmc_quaternion_t</a> const *const quat, <a class="el" href="group___m_a_t_h.html#gaf54148199ba99c19929ed3d47658d36f">lmc_euler_zyx_t</a> *const euler)</td></tr>
+<tr class="memdesc:gabf9fd731c01425017a797794e261f656"><td class="mdescLeft">&#160;</td><td class="mdescRight">Math function to compute euler zyx to quaternion.  <a href="group___m_a_t_h.html#gabf9fd731c01425017a797794e261f656">More...</a><br /></td></tr>
+<tr class="separator:gabf9fd731c01425017a797794e261f656"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga608aefab12ba98416dba661862ec9096"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___m_a_t_h.html#ga608aefab12ba98416dba661862ec9096">lmc_euler_zyx_to_euler_zyz</a> (<a class="el" href="group___m_a_t_h.html#gaf54148199ba99c19929ed3d47658d36f">lmc_euler_zyx_t</a> const *const euler_zyx, <a class="el" href="group___m_a_t_h.html#ga291d0f843e39b4fd3a307682d5993017">lmc_euler_zyz_t</a> *const euler_zyz)</td></tr>
+<tr class="memdesc:ga608aefab12ba98416dba661862ec9096"><td class="mdescLeft">&#160;</td><td class="mdescRight">Math function to compute euler zyx to zyz.  <a href="group___m_a_t_h.html#ga608aefab12ba98416dba661862ec9096">More...</a><br /></td></tr>
+<tr class="separator:ga608aefab12ba98416dba661862ec9096"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga2aba01736d8bc5134914851a7bb9b7e5"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___m_a_t_h.html#ga2aba01736d8bc5134914851a7bb9b7e5">lmc_euler_zyz_to_euler_zyx</a> (<a class="el" href="group___m_a_t_h.html#ga291d0f843e39b4fd3a307682d5993017">lmc_euler_zyz_t</a> const *const euler_zyz, <a class="el" href="group___m_a_t_h.html#gaf54148199ba99c19929ed3d47658d36f">lmc_euler_zyx_t</a> *const euler_zyx)</td></tr>
+<tr class="memdesc:ga2aba01736d8bc5134914851a7bb9b7e5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Math function to compute euler zyz to euler zyx.  <a href="group___m_a_t_h.html#ga2aba01736d8bc5134914851a7bb9b7e5">More...</a><br /></td></tr>
+<tr class="separator:ga2aba01736d8bc5134914851a7bb9b7e5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gaeec7e256feeab86f344bc82991f655c3"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___m_a_t_h.html#gaeec7e256feeab86f344bc82991f655c3">lmc_euler_zyz_to_quaternion</a> (<a class="el" href="group___m_a_t_h.html#ga291d0f843e39b4fd3a307682d5993017">lmc_euler_zyz_t</a> const *const euler, <a class="el" href="group___m_a_t_h.html#ga75f1f9111bbeeccc3a2c1d49b1fa59d3">lmc_quaternion_t</a> *const quat)</td></tr>
+<tr class="memdesc:gaeec7e256feeab86f344bc82991f655c3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Math function to compute euler zyx to quaternion.  <a href="group___m_a_t_h.html#gaeec7e256feeab86f344bc82991f655c3">More...</a><br /></td></tr>
+<tr class="separator:gaeec7e256feeab86f344bc82991f655c3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga995941872c8935764be4c99c6b6ffc73"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___m_a_t_h.html#ga995941872c8935764be4c99c6b6ffc73">lmc_quaternion_to_euler_zyz</a> (<a class="el" href="group___m_a_t_h.html#ga75f1f9111bbeeccc3a2c1d49b1fa59d3">lmc_quaternion_t</a> const *const quat, <a class="el" href="group___m_a_t_h.html#ga291d0f843e39b4fd3a307682d5993017">lmc_euler_zyz_t</a> *const euler)</td></tr>
+<tr class="memdesc:ga995941872c8935764be4c99c6b6ffc73"><td class="mdescLeft">&#160;</td><td class="mdescRight">Math function to compute euler zyx to quaternion.  <a href="group___m_a_t_h.html#ga995941872c8935764be4c99c6b6ffc73">More...</a><br /></td></tr>
+<tr class="separator:ga995941872c8935764be4c99c6b6ffc73"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Basic math data structure definitions and functions. </p>
