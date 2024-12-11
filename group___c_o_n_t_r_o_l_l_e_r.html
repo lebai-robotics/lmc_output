@@ -152,6 +152,9 @@ Functions</h2></td></tr>
 <tr class="memitem:ga40b0cbd0c6f52a7b19bc9390064bb099"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___c_o_n_t_r_o_l_l_e_r.html#ga40b0cbd0c6f52a7b19bc9390064bb099">lmc_controller_cartesian_admittance_set_force_threshold</a> (<a class="el" href="group___c_o_n_t_r_o_l_l_e_r.html#ga3da7559a5eb1ef2033120d45a5efa452">lmc_controller_t</a> *const controller, double threshold)</td></tr>
 <tr class="memdesc:ga40b0cbd0c6f52a7b19bc9390064bb099"><td class="mdescLeft">&#160;</td><td class="mdescRight">Cartesian admittance control block set force threshold function.  <a href="#ga40b0cbd0c6f52a7b19bc9390064bb099">More...</a><br /></td></tr>
 <tr class="separator:ga40b0cbd0c6f52a7b19bc9390064bb099"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga1f57eb00b46948c1918933e53fb7d345"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___c_o_n_t_r_o_l_l_e_r.html#ga1f57eb00b46948c1918933e53fb7d345">lmc_controller_cartesian_admittance_set_torque_threshold</a> (<a class="el" href="group___c_o_n_t_r_o_l_l_e_r.html#ga3da7559a5eb1ef2033120d45a5efa452">lmc_controller_t</a> *const controller, double threshold)</td></tr>
+<tr class="memdesc:ga1f57eb00b46948c1918933e53fb7d345"><td class="mdescLeft">&#160;</td><td class="mdescRight">Cartesian admittance control block set torque threshold function.  <a href="#ga1f57eb00b46948c1918933e53fb7d345">More...</a><br /></td></tr>
+<tr class="separator:ga1f57eb00b46948c1918933e53fb7d345"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:gad0227cb6c836f1dce08c36e2737d7eb8"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___c_o_n_t_r_o_l_l_e_r.html#gad0227cb6c836f1dce08c36e2737d7eb8">lmc_controller_cartesian_admittance_set_dexterity</a> (<a class="el" href="group___c_o_n_t_r_o_l_l_e_r.html#ga3da7559a5eb1ef2033120d45a5efa452">lmc_controller_t</a> *const controller, size_t n)</td></tr>
 <tr class="memdesc:gad0227cb6c836f1dce08c36e2737d7eb8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Cartesian admittance control block set dexterity function.  <a href="#gad0227cb6c836f1dce08c36e2737d7eb8">More...</a><br /></td></tr>
 <tr class="separator:gad0227cb6c836f1dce08c36e2737d7eb8"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -401,7 +404,7 @@ Usually called when emergency happend, in this case, you don't have to call upda
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramdir">[in]</td><td class="paramname">controller</td><td>Controller data structure for setting. </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">threshold</td><td>force threshold. Default value is 15. if the total force (control force + external force ) is lesser than the threshold, zero force is computed for controller </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">threshold</td><td>force threshold. Default value is 10. if the total force (control force + external force ) is lesser than the threshold, zero force is computed for controller </td></tr>
   </table>
   </dd>
 </dl>
@@ -474,6 +477,42 @@ Usually called when emergency happend, in this case, you don't have to call upda
   <table class="params">
     <tr><td class="paramdir">[in]</td><td class="paramname">controller</td><td>Controller data for controller computing. </td></tr>
     <tr><td class="paramdir">[in]</td><td class="paramname">task_frame</td><td>task frame. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a class="anchor" id="ga1f57eb00b46948c1918933e53fb7d345"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void lmc_controller_cartesian_admittance_set_torque_threshold </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="group___c_o_n_t_r_o_l_l_e_r.html#ga3da7559a5eb1ef2033120d45a5efa452">lmc_controller_t</a> *const&#160;</td>
+          <td class="paramname"><em>controller</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>threshold</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Cartesian admittance control block set torque threshold function. </p>
+<dl class="section note"><dt>Note</dt><dd></dd></dl>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">controller</td><td>Controller data structure for setting. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">threshold</td><td>torque threshold. Default value is 0.1. if the total torque (control torque + external torque ) is lesser than the threshold, zero torque is computed for controller </td></tr>
   </table>
   </dd>
 </dl>
