@@ -18,6 +18,7 @@ var searchData=
   ['lmc_5fcontroller_5fcartesian_5fadmittance_5fset_5fdexterity',['lmc_controller_cartesian_admittance_set_dexterity',['../group___c_o_n_t_r_o_l_l_e_r.html#gad0227cb6c836f1dce08c36e2737d7eb8',1,'lmc_controller.h']]],
   ['lmc_5fcontroller_5fcartesian_5fadmittance_5fset_5fforce_5fthreshold',['lmc_controller_cartesian_admittance_set_force_threshold',['../group___c_o_n_t_r_o_l_l_e_r.html#ga40b0cbd0c6f52a7b19bc9390064bb099',1,'lmc_controller.h']]],
   ['lmc_5fcontroller_5fcartesian_5fadmittance_5fset_5fmass',['lmc_controller_cartesian_admittance_set_mass',['../group___c_o_n_t_r_o_l_l_e_r.html#gaee363b702d41e0d8c642aca3352a76e3',1,'lmc_controller.h']]],
+  ['lmc_5fcontroller_5fcartesian_5fadmittance_5fset_5foffset_5flimit',['lmc_controller_cartesian_admittance_set_offset_limit',['../group___c_o_n_t_r_o_l_l_e_r.html#ga8a248e8749a065343f2cba3b541c55d4',1,'lmc_controller.h']]],
   ['lmc_5fcontroller_5fcartesian_5fadmittance_5fset_5ftask_5fframe',['lmc_controller_cartesian_admittance_set_task_frame',['../group___c_o_n_t_r_o_l_l_e_r.html#ga5218e00a49204c30ff0bac654cd243b3',1,'lmc_controller.h']]],
   ['lmc_5fcontroller_5fcartesian_5fadmittance_5fset_5ftorque_5fthreshold',['lmc_controller_cartesian_admittance_set_torque_threshold',['../group___c_o_n_t_r_o_l_l_e_r.html#ga1f57eb00b46948c1918933e53fb7d345',1,'lmc_controller.h']]],
   ['lmc_5fcontroller_5fcartesian_5fadmittance_5fupdate',['lmc_controller_cartesian_admittance_update',['../group___c_o_n_t_r_o_l_l_e_r.html#ga01257d52a9116625c284dc64181f7a30',1,'lmc_controller.h']]],
