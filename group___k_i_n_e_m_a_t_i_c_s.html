@@ -25,7 +25,7 @@
   <td id="projectlogo"><img alt="Logo" src="logo.png"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">lebai-motion-control
-   &#160;<span id="projectnumber">3.1.6</span>
+   &#160;<span id="projectnumber">3.1.7</span>
    </div>
    <div id="projectbrief">lebai motion control C interface</div>
   </td>
@@ -98,6 +98,9 @@ Functions</h2></td></tr>
 <tr class="memitem:ga4f2821845393841dda8e85aa7c5890e9"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___k_i_n_e_m_a_t_i_c_s.html#ga4f2821845393841dda8e85aa7c5890e9">lmc_kin_fk_pose_by_index</a> (<a class="el" href="group___r_o_b_o_t___m_o_d_e_l.html#ga88801e600508c29bfd792993c252af02">lmc_robot_model_t</a> *const robot_model, double const *const joint_pos, int index, <a class="el" href="group___m_a_t_h.html#ga43c94b4eb1f98950076ef8ad6465c8f7">lmc_transform_t</a> *const cart_pose)</td></tr>
 <tr class="memdesc:ga4f2821845393841dda8e85aa7c5890e9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Compute kinematic forward position of robot. This function can compute all the link position.  <a href="#ga4f2821845393841dda8e85aa7c5890e9">More...</a><br /></td></tr>
 <tr class="separator:ga4f2821845393841dda8e85aa7c5890e9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gaa3ed584d81f826dfb213f793e243c28b"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___k_i_n_e_m_a_t_i_c_s.html#gaa3ed584d81f826dfb213f793e243c28b">lmc_kin_ik_pose_with_coeff</a> (<a class="el" href="group___r_o_b_o_t___m_o_d_e_l.html#ga88801e600508c29bfd792993c252af02">lmc_robot_model_t</a> *const robot_model, <a class="el" href="group___m_a_t_h.html#ga43c94b4eb1f98950076ef8ad6465c8f7">lmc_transform_t</a> const *const cart_pose, double const *const coeff, double *const joint_pos)</td></tr>
+<tr class="memdesc:gaa3ed584d81f826dfb213f793e243c28b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Compute kinematic inverse joint position of robot.  <a href="#gaa3ed584d81f826dfb213f793e243c28b">More...</a><br /></td></tr>
+<tr class="separator:gaa3ed584d81f826dfb213f793e243c28b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga50c51125a3fb8d0286ee2f8cc48f3cfe"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___k_i_n_e_m_a_t_i_c_s.html#ga50c51125a3fb8d0286ee2f8cc48f3cfe">lmc_kin_ik_pose</a> (<a class="el" href="group___r_o_b_o_t___m_o_d_e_l.html#ga88801e600508c29bfd792993c252af02">lmc_robot_model_t</a> *const robot_model, <a class="el" href="group___m_a_t_h.html#ga43c94b4eb1f98950076ef8ad6465c8f7">lmc_transform_t</a> const *const cart_pose, double *const joint_pos)</td></tr>
 <tr class="memdesc:ga50c51125a3fb8d0286ee2f8cc48f3cfe"><td class="mdescLeft">&#160;</td><td class="mdescRight">Compute kinematic inverse joint position of robot.  <a href="#ga50c51125a3fb8d0286ee2f8cc48f3cfe">More...</a><br /></td></tr>
 <tr class="separator:ga50c51125a3fb8d0286ee2f8cc48f3cfe"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -417,9 +420,9 @@ Functions</h2></td></tr>
 <tr>
 <th>Bit 16 </th><th>... </th><th>Bit 3 </th><th>Bit 2 </th><th>Bit 1  </th></tr>
 <tr>
-<td>NA </td><td>NA </td><td>Wrist Alignment Singularity </td><td>Inner Workspace Limit </td><td>Outer Workspace Limit </td></tr>
+<td>NA </td><td>NA </td><td>Wrist Alignment Singularity </td><td>Inner Workspace Limit </td><td>Outer </td></tr>
 </table>
-<p><b>Outer Workspace Limit</b>: This means the robot second link and third link are aligned, usually means the robot is almost reach its outside limitation. </p><div class="image">
+<p>Workspace Limit | <b>Outer Workspace Limit</b>: This means the robot second link and third link are aligned, usually means the robot is almost reach its outside limitation. </p><div class="image">
 <img src="outer_workspace_limit.png" alt="outer_workspace_limit.png"/>
 <div class="caption">
 Outer Workspace Limit</div></div>
@@ -470,6 +473,57 @@ Wrist Alignment Singularity</div></div>
   <table class="params">
     <tr><td class="paramdir">[in]</td><td class="paramname">robot_model</td><td>Robot model data for kinematic computing </td></tr>
     <tr><td class="paramdir">[in]</td><td class="paramname">cart_pose</td><td>Cartesian pose for transform </td></tr>
+    <tr><td class="paramdir">[in,out]</td><td class="paramname">joint_pos</td><td>Joint position array input as init pose, and then set to computed joint position. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>Return 0 on success, otherwise failure. </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="gaa3ed584d81f826dfb213f793e243c28b"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int lmc_kin_ik_pose_with_coeff </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="group___r_o_b_o_t___m_o_d_e_l.html#ga88801e600508c29bfd792993c252af02">lmc_robot_model_t</a> *const&#160;</td>
+          <td class="paramname"><em>robot_model</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="group___m_a_t_h.html#ga43c94b4eb1f98950076ef8ad6465c8f7">lmc_transform_t</a> const *const&#160;</td>
+          <td class="paramname"><em>cart_pose</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double const *const&#160;</td>
+          <td class="paramname"><em>coeff</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double *const&#160;</td>
+          <td class="paramname"><em>joint_pos</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Compute kinematic inverse joint position of robot. </p>
+<dl class="section note"><dt>Note</dt><dd></dd></dl>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">robot_model</td><td>Robot model data for kinematic computing </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">cart_pose</td><td>Cartesian pose for transform </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">coeff</td><td>Coefficient array for computing the best solution </td></tr>
     <tr><td class="paramdir">[in,out]</td><td class="paramname">joint_pos</td><td>Joint position array input as init pose, and then set to computed joint position. </td></tr>
   </table>
   </dd>
