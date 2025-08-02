@@ -25,7 +25,7 @@
   <td id="projectlogo"><img alt="Logo" src="logo.png"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">lebai-motion-control
-   &#160;<span id="projectnumber">3.1.7</span>
+   &#160;<span id="projectnumber">3.1.8</span>
    </div>
    <div id="projectbrief">lebai motion control C interface</div>
   </td>
@@ -168,6 +168,9 @@ Functions</h2></td></tr>
 <tr class="memitem:ga995941872c8935764be4c99c6b6ffc73"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___m_a_t_h.html#ga995941872c8935764be4c99c6b6ffc73">lmc_quaternion_to_euler_zyz</a> (<a class="el" href="group___m_a_t_h.html#ga75f1f9111bbeeccc3a2c1d49b1fa59d3">lmc_quaternion_t</a> const *const quat, <a class="el" href="group___m_a_t_h.html#ga291d0f843e39b4fd3a307682d5993017">lmc_euler_zyz_t</a> *const euler)</td></tr>
 <tr class="memdesc:ga995941872c8935764be4c99c6b6ffc73"><td class="mdescLeft">&#160;</td><td class="mdescRight">Math function to compute euler zyx to quaternion.  <a href="#ga995941872c8935764be4c99c6b6ffc73">More...</a><br /></td></tr>
 <tr class="separator:ga995941872c8935764be4c99c6b6ffc73"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga68a9acbc75965bba0e069ac66e90ee6e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group___m_a_t_h.html#gaf54148199ba99c19929ed3d47658d36f">lmc_euler_zyx_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___m_a_t_h.html#ga68a9acbc75965bba0e069ac66e90ee6e">lmc_kin_compute_close_rotation</a> (<a class="el" href="group___m_a_t_h.html#gaf54148199ba99c19929ed3d47658d36f">lmc_euler_zyx_t</a> const *const rotation1, <a class="el" href="group___m_a_t_h.html#gaf54148199ba99c19929ed3d47658d36f">lmc_euler_zyx_t</a> const *const rotation2)</td></tr>
+<tr class="memdesc:ga68a9acbc75965bba0e069ac66e90ee6e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Math function to transfomr a twist(cartesian velocity).  <a href="#ga68a9acbc75965bba0e069ac66e90ee6e">More...</a><br /></td></tr>
+<tr class="separator:ga68a9acbc75965bba0e069ac66e90ee6e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <p>Math module. </p>
@@ -425,6 +428,56 @@ lmc_euler_zyz_to_quaternion(&amp;euler, &amp;quaternion);
   </table>
   </dd>
 </dl>
+
+</div>
+</div>
+<a class="anchor" id="ga68a9acbc75965bba0e069ac66e90ee6e"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="group___m_a_t_h.html#gaf54148199ba99c19929ed3d47658d36f">lmc_euler_zyx_t</a> lmc_kin_compute_close_rotation </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="group___m_a_t_h.html#gaf54148199ba99c19929ed3d47658d36f">lmc_euler_zyx_t</a> const *const&#160;</td>
+          <td class="paramname"><em>rotation1</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="group___m_a_t_h.html#gaf54148199ba99c19929ed3d47658d36f">lmc_euler_zyx_t</a> const *const&#160;</td>
+          <td class="paramname"><em>rotation2</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Math function to transfomr a twist(cartesian velocity). </p>
+<p>Example usage code: </p><pre class="fragment">lmc_quaternion_t quaternion;
+lmc_euler_t euler_result;
+lmc_quaternion_to_euler(&amp;quaternion, &amp;euler_result);
+</pre><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">t_in</td><td>twist in coodinate. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">transform</td><td>coodinate pose. </td></tr>
+    <tr><td class="paramdir">[out]</td><td class="paramname">t_out</td><td>Euler zyx data output. Example usage code: <pre class="fragment">lmc_quaternion_t quaternion;
+lmc_euler_zyz_t euler_result;
+lmc_quaternion_to_euler_zyz(&amp;quaternion, &amp;euler_result);
+</pre></td></tr>
+  </table>
+  </dd>
+</dl>
+<p>/** Compute the closest rotation between two rotations. </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">rotation1</td><td>First rotation. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">rotation2</td><td>Second rotation. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>Closest rotation. </dd></dl>
 
 </div>
 </div>
